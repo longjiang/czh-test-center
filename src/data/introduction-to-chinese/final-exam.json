@@ -94,9 +94,9 @@
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "chá" },
-        { "key": "B", "label": "kāfēi" },
-        { "key": "C", "label": "píjiǔ" },
-        { "key": "D", "label": "shuǐ" }
+        { "key": "B", "label": "hěn kuài" },
+        { "key": "C", "label": "máng" },
+        { "key": "D", "label": "zuótiān" }
       ],
       "answer": "A"
     },
@@ -105,10 +105,10 @@
       "prompt": "Fill in the blank: Wǒmen qù _____ ba!",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "xuéxiào" },
+        { "key": "A", "label": "hē chá" },
         { "key": "B", "label": "yóulèchǎng" },
-        { "key": "C", "label": "gōngyuán" },
-        { "key": "D", "label": "jiā" }
+        { "key": "C", "label": "píjiǔ" },
+        { "key": "D", "label": "hǎo chī" }
       ],
       "answer": "B"
     },
@@ -117,10 +117,10 @@
       "prompt": "Fill in the blank: Lái, wǒ ___ nǐ hē jiǔ.",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "qǐng" },
+        { "key": "A", "label": "zuótiān" },
         { "key": "B", "label": "péi" },
-        { "key": "C", "label": "qù" },
-        { "key": "D", "label": "mǎi" }
+        { "key": "C", "label": "xiǎng hē" },
+        { "key": "D", "label": "hěn hǎo" }
       ],
       "answer": "B"
     },
@@ -129,10 +129,10 @@
       "prompt": "Fill in the blank: Zěnme, nǐ __ le?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "xiào" },
+        { "key": "A", "label": "píjiǔ le" },
         { "key": "B", "label": "kū" },
-        { "key": "C", "label": "shuì" },
-        { "key": "D", "label": "chī" }
+        { "key": "C", "label": "zài chē" },
+        { "key": "D", "label": "hē chī" }
       ],
       "answer": "B"
     },
