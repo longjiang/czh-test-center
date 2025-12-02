@@ -8,6 +8,7 @@ function QuizRunner({ quiz, courseName }) {
   const [answers, setAnswers] = useState({});
   const [remainingSeconds, setRemainingSeconds] = useState(quiz?.timeLimitSeconds ?? 0);
   const [submitted, setSubmitted] = useState(false);
+  const questionCount = quiz?.questions?.filter((item) => item.type !== 'heading').length ?? 0;
 
   useEffect(() => {
     setHasStarted(false);
@@ -35,6 +36,7 @@ function QuizRunner({ quiz, courseName }) {
   const correctCount = useMemo(() => {
     if (!submitted || !quiz) return 0;
     return quiz.questions.reduce((count, question) => {
+      if (question.type === 'heading') return count;
       return answers[question.id] === question.answer ? count + 1 : count;
     }, 0);
   }, [answers, quiz, submitted]);
@@ -59,7 +61,9 @@ function QuizRunner({ quiz, courseName }) {
         <div className="flex items-center justify-between flex-wrap gap-2">
           <div>
             <h1 className="text-2xl font-bold text-slate-900">{quiz.title}</h1>
-            <p className="text-sm text-slate-600">{quiz.questions.length} questions · Time limit {formatSeconds(quiz.timeLimitSeconds)}</p>
+            <p className="text-sm text-slate-600">
+              {questionCount} questions · Time limit {formatSeconds(quiz.timeLimitSeconds)}
+            </p>
           </div>
           <div className="flex items-center gap-2 text-sm text-slate-600">
             <span className="badge">JSON-backed</span>
@@ -89,24 +93,35 @@ function QuizRunner({ quiz, courseName }) {
 
       {hasStarted && (
         <div className="space-y-4">
-          {quiz.questions.map((question, index) => {
-            const correctOption = question.options.find((option) => option.key === question.answer);
-            const selectedOption = answers[question.id];
-            const isCorrect = submitted ? selectedOption === question.answer : null;
-            return (
-              <QuestionCard
-                key={question.id}
-                question={question}
-                selectedOption={selectedOption}
-                correctOption={correctOption}
-                isCorrect={isCorrect}
-                submitted={submitted}
-                onSelect={(optionKey) => handleSelect(question.id, optionKey)}
-                disabled={submitted}
-                ordinal={index + 1}
-              />
-            );
-          })}
+          {(() => {
+            let ordinal = 0;
+            return quiz.questions.map((item) => {
+              if (item.type === 'heading') {
+                return (
+                  <div key={item.id} className="px-2 py-1 bg-slate-50 border border-slate-200 rounded">
+                    <p className="text-sm font-semibold text-slate-800">{item.label}</p>
+                  </div>
+                );
+              }
+              ordinal += 1;
+              const correctOption = item.options.find((option) => option.key === item.answer);
+              const selectedOption = answers[item.id];
+              const isCorrect = submitted ? selectedOption === item.answer : null;
+              return (
+                <QuestionCard
+                  key={item.id}
+                  question={item}
+                  selectedOption={selectedOption}
+                  correctOption={correctOption}
+                  isCorrect={isCorrect}
+                  submitted={submitted}
+                  onSelect={(optionKey) => handleSelect(item.id, optionKey)}
+                  disabled={submitted}
+                  ordinal={ordinal}
+                />
+              );
+            });
+          })()}
         </div>
       )}
 

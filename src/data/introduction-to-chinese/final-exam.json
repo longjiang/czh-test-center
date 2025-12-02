@@ -5,6 +5,16 @@
   "pointsPerQuestion": 1,
   "questions": [
     {
+      "id": "fe-h1",
+      "type": "heading",
+      "label": "Part 1. Questions based on the lessons (20 questions)"
+    },
+    {
+      "id": "fe-h2",
+      "type": "heading",
+      "label": "Pronunciation"
+    },
+    {
       "id": "fe-q1",
       "prompt": "Which “i” sounds different from the others? yi, si, xi, lia",
       "type": "multiple-choice",
@@ -39,6 +49,11 @@
         { "key": "D", "label": "du" }
       ],
       "answer": "B"
+    },
+    {
+      "id": "fe-h2b",
+      "type": "heading",
+      "label": "Choose the one that is not in the same category as the others"
     },
     {
       "id": "fe-q4",
@@ -89,6 +104,11 @@
       "answer": "D"
     },
     {
+      "id": "fe-h3",
+      "type": "heading",
+      "label": "Fill in the blank"
+    },
+    {
       "id": "fe-q8",
       "prompt": "Fill in the blank: Lái, hē ____.",
       "type": "multiple-choice",
@@ -137,6 +157,11 @@
       "answer": "B"
     },
     {
+      "id": "fe-h4",
+      "type": "heading",
+      "label": "Choose the correct response"
+    },
+    {
       "id": "fe-q12",
       "prompt": "Choose the correct response: Děng wǒ yīxià.",
       "type": "multiple-choice",
@@ -183,6 +208,11 @@
         { "key": "D", "label": "Duì le." }
       ],
       "answer": "A"
+    },
+    {
+      "id": "fe-h5",
+      "type": "heading",
+      "label": "Choose the correct translation"
     },
     {
       "id": "fe-q16",
