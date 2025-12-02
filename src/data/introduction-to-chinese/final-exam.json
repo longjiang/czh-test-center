@@ -273,6 +273,190 @@
         { "key": "D", "label": "We should buy some drinks." }
       ],
       "answer": "A"
+    },
+    {
+      "id": "fe-h6",
+      "type": "heading",
+      "label": "Part 2. Questions based on HSK 1 (20 questions)"
+    },
+    {
+      "id": "fe-h7",
+      "type": "heading",
+      "label": "Listening"
+    },
+    {
+      "id": "fe-h8",
+      "type": "heading",
+      "label": "Identify the picture that matches the phrase you hear."
+    },
+    {
+      "id": "fe-media-set-1",
+      "type": "image-set",
+      "label": "Image set (A-E) for questions 21-25",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set1-a.svg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set1-b.svg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set1-c.svg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set1-d.svg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set1-e.svg" }
+      ]
+    },
+    {
+      "id": "fe-q21",
+      "prompt": "Select the matching picture for the audio: zài jiàn.",
+      "audioSrc": "/assets/final-exam/audio/fe-q21.mp3",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set1-a.svg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set1-b.svg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set1-c.svg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set1-d.svg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set1-e.svg" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-q22",
+      "prompt": "Select the matching picture for the audio: chī dōngxi.",
+      "audioSrc": "/assets/final-exam/audio/fe-q22.mp3",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set1-a.svg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set1-b.svg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set1-c.svg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set1-d.svg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set1-e.svg" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "fe-q23",
+      "prompt": "Select the matching picture for the audio: chī mǐfàn.",
+      "audioSrc": "/assets/final-exam/audio/fe-q23.mp3",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set1-a.svg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set1-b.svg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set1-c.svg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set1-d.svg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set1-e.svg" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "fe-q24",
+      "prompt": "Select the matching picture for the audio: wǒ hé érzi.",
+      "audioSrc": "/assets/final-exam/audio/fe-q24.mp3",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set1-a.svg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set1-b.svg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set1-c.svg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set1-d.svg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set1-e.svg" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "fe-q25",
+      "prompt": "Select the matching picture for the audio: qǐng hē chá.",
+      "audioSrc": "/assets/final-exam/audio/fe-q25.mp3",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set1-a.svg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set1-b.svg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set1-c.svg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set1-d.svg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set1-e.svg" }
+      ],
+      "answer": "E"
+    },
+    {
+      "id": "fe-h9",
+      "type": "heading",
+      "label": "Identify the picture that matches the sentence or dialogue you hear."
+    },
+    {
+      "id": "fe-media-set-2",
+      "type": "image-set",
+      "label": "Image set (A-E) for questions 26-30",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set2-a.svg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set2-b.svg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set2-c.svg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set2-d.svg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set2-e.svg" }
+      ]
+    },
+    {
+      "id": "fe-q26",
+      "prompt": "Select the matching picture for the audio: wèi? shì Wáng xiānsheng ma?",
+      "audioSrc": "/assets/final-exam/audio/fe-q26.mp3",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set2-a.svg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set2-b.svg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set2-c.svg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set2-d.svg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set2-e.svg" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-q27",
+      "prompt": "Select the matching picture for the audio: xiàwǔ wǒ qù shāngdiàn, wǒ xiǎng mǎi yìxiē shuǐguǒ.",
+      "audioSrc": "/assets/final-exam/audio/fe-q27.mp3",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set2-a.svg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set2-b.svg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set2-c.svg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set2-d.svg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set2-e.svg" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "fe-q28",
+      "prompt": "Select the matching picture for the audio: zhè shì nǐ de péngyǒu ma?",
+      "audioSrc": "/assets/final-exam/audio/fe-q28.mp3",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set2-a.svg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set2-b.svg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set2-c.svg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set2-d.svg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set2-e.svg" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "fe-q29",
+      "prompt": "Select the matching picture for the audio: nán: xièxie nǐmen! nǚ: bù kèqì, zàijiàn!",
+      "audioSrc": "/assets/final-exam/audio/fe-q29.mp3",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set2-a.svg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set2-b.svg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set2-c.svg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set2-d.svg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set2-e.svg" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "fe-q30",
+      "prompt": "Select the matching picture for the audio: nán: nǐ hǎo! nǚ: nǐ hǎo! hěn gāoxìng rènshi nǐ.",
+      "audioSrc": "/assets/final-exam/audio/fe-q30.mp3",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set2-a.svg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set2-b.svg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set2-c.svg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set2-d.svg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set2-e.svg" }
+      ],
+      "answer": "E"
     }
   ]
 }

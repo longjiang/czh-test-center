@@ -8,7 +8,8 @@ function QuizRunner({ quiz, courseName }) {
   const [answers, setAnswers] = useState({});
   const [remainingSeconds, setRemainingSeconds] = useState(quiz?.timeLimitSeconds ?? 0);
   const [submitted, setSubmitted] = useState(false);
-  const questionCount = quiz?.questions?.filter((item) => item.type !== 'heading').length ?? 0;
+  const questionCount =
+    quiz?.questions?.filter((item) => item.type !== 'heading' && item.type !== 'image-set').length ?? 0;
 
   useEffect(() => {
     setHasStarted(false);
@@ -36,7 +37,7 @@ function QuizRunner({ quiz, courseName }) {
   const correctCount = useMemo(() => {
     if (!submitted || !quiz) return 0;
     return quiz.questions.reduce((count, question) => {
-      if (question.type === 'heading') return count;
+      if (question.type === 'heading' || question.type === 'image-set') return count;
       return answers[question.id] === question.answer ? count + 1 : count;
     }, 0);
   }, [answers, quiz, submitted]);
@@ -100,6 +101,35 @@ function QuizRunner({ quiz, courseName }) {
                 return (
                   <div key={item.id} className="px-2 py-1 bg-slate-50 border border-slate-200 rounded">
                     <p className="text-sm font-semibold text-slate-800">{item.label}</p>
+                  </div>
+                );
+              }
+              if (item.type === 'image-set') {
+                return (
+                  <div key={item.id} className="card space-y-3">
+                    <div className="flex items-center justify-between">
+                      <div className="text-sm font-semibold text-slate-800">{item.label}</div>
+                      <span className="badge">Reference</span>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-3">
+                      {item.options.map((option) => (
+                        <div
+                          key={option.key}
+                          className="flex flex-col items-center gap-2 rounded border border-slate-200 bg-slate-50 p-3"
+                        >
+                          <div className="flex items-center justify-center h-24 w-full bg-white border border-slate-200 rounded">
+                            <img
+                              src={option.image}
+                              alt={option.alt ?? option.label ?? `Image ${option.key}`}
+                              className="h-24 object-contain"
+                            />
+                          </div>
+                          <div className="text-xs font-semibold text-slate-700 uppercase tracking-wide">
+                            {option.key}. {option.label}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 );
               }

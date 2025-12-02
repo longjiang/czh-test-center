@@ -26,6 +26,11 @@ function QuestionCard({
         </div>
         <div className="flex flex-col gap-1">
           <p className="text-slate-900 font-semibold leading-tight">{question.prompt}</p>
+          {question.audioSrc && (
+            <audio className="mt-1" controls preload="none" src={question.audioSrc}>
+              Your browser does not support the audio element.
+            </audio>
+          )}
           {submitted && (
             <span className={`text-xs font-semibold uppercase ${isCorrect ? 'text-green-700' : 'text-rose-700'}`}>
               {isCorrect ? 'Correct' : 'Incorrect'}
@@ -58,9 +63,16 @@ function QuestionCard({
               onChange={() => onSelect(option.key)}
               disabled={disabled}
             />
-            <span className="text-sm text-slate-800">
+            <span className="text-sm text-slate-800 flex items-center gap-3">
               <strong className="mr-1">{option.key}.</strong>
-              {option.label}
+              {option.image && (
+                <img
+                  src={option.image}
+                  alt={option.alt ?? option.label ?? `Option ${option.key}`}
+                  className="h-16 w-16 rounded border border-slate-200 object-cover bg-white"
+                />
+              )}
+              <span>{option.label}</span>
             </span>
           </label>
         ))}
