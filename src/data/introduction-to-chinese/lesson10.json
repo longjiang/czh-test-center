@@ -1,0 +1,127 @@
+{
+  "id": "lesson10",
+  "title": "Lesson 10",
+  "timeLimitSeconds": 420,
+  "questions": [
+    {
+      "id": "l10-q1",
+      "prompt": "Give the correct meaning of: y\u01d2u",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "To not have" },
+        { "key": "B", "label": "To want" },
+        { "key": "C", "label": "To have" },
+        { "key": "D", "label": "To go" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l10-q2",
+      "prompt": "What is the Chinese word for 'beer'?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Ch\u00e1 (Tea)" },
+        { "key": "B", "label": "Shu\u01d0 (Water)" },
+        { "key": "C", "label": "P\u00edji\u01d2" },
+        { "key": "D", "label": "Ji\u01d2 (Alcohol)" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l10-q3",
+      "prompt": "What particle is added to the end of a statement to turn it into a yes/no question?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Ba (suggestion particle)" },
+        { "key": "B", "label": "Ne (follow-up particle)" },
+        { "key": "C", "label": "Ma" },
+        { "key": "D", "label": "Le (change of state particle)" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l10-q4",
+      "prompt": "Give the correct meaning of: z\u00e1nmen",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "You all" },
+        { "key": "B", "label": "They" },
+        { "key": "C", "label": "We, us (inclusive of the person being spoken to)" },
+        { "key": "D", "label": "He and I" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l10-q5",
+      "prompt": "Give the correct meaning of: n\u00e1n p\u00e9ngyou",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Male friend" },
+        { "key": "B", "label": "Boyfriend" },
+        { "key": "C", "label": "Girlfriend" },
+        { "key": "D", "label": "Male colleague" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l10-q6",
+      "prompt": "Give the correct meaning of: n\u01dc p\u00e9ngyou",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Female friend" },
+        { "key": "B", "label": "Female colleague" },
+        { "key": "C", "label": "Girlfriend" },
+        { "key": "D", "label": "Female teacher" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l10-q7",
+      "prompt": "What phrase means \"not have\" or \"there is not\"?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "B\u00f9 y\u01d2u" },
+        { "key": "B", "label": "B\u00f9 sh\u00ec" },
+        { "key": "C", "label": "M\u00e9iy\u01d2u" },
+        { "key": "D", "label": "B\u00f9 x\u00edng" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l10-q8",
+      "prompt": "What is the basic structure used to state that you possess something?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "W\u01d2 sh\u00ec + [noun]" },
+        { "key": "B", "label": "Y\u01d2u + [noun]" },
+        { "key": "C", "label": "W\u01d2 y\u00e0o + [noun]" },
+        { "key": "D", "label": "W\u01d2 xi\u01ceng + [noun]" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l10-q9",
+      "prompt": "How do you form a negative answer when asked if you have something?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "B\u00f9" },
+        { "key": "B", "label": "B\u00f9 y\u00e0o" },
+        { "key": "C", "label": "B\u00f9 sh\u00ec" },
+        { "key": "D", "label": "M\u00e9iy\u01d2u" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "l10-q10",
+      "prompt": "What is the phrase used to express 'not yet'?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Y\u01d0j\u012bng" },
+        { "key": "B", "label": "Xi\u00e0nz\u00e0i" },
+        { "key": "C", "label": "H\u00e1i m\u00e9iy\u01d2u" },
+        { "key": "D", "label": "W\u00e1nqu\u00e1n" }
+      ],
+      "answer": "C"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "lesson5",
+  "title": "Lesson 5",
+  "timeLimitSeconds": 420,
+  "questions": [
+    {
+      "id": "l5-q1",
+      "prompt": "Give the correct meaning of: du\u00ec b\u00f9 q\u01d0",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Thank you" },
+        { "key": "B", "label": "Excuse me" },
+        { "key": "C", "label": "Sorry" },
+        { "key": "D", "label": "Goodbye" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l5-q2",
+      "prompt": "Give the correct meaning of: w\u01ce",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Early" },
+        { "key": "B", "label": "Fast" },
+        { "key": "C", "label": "Late" },
+        { "key": "D", "label": "Good" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l5-q3",
+      "prompt": "What is the common reply to \u201cdu\u00ec b\u00f9 q\u01d0\u201d?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "B\u00f9 k\u00e8 q\u00ec (You're welcome)" },
+        { "key": "B", "label": "Xi\u00e8 xi\u00e8 (Thank you)" },
+        { "key": "C", "label": "M\u00e9i gu\u0101n x\u00ec (It doesn't matter/No worries) or m\u00e9i sh\u00ec (It's okay/No worries)" },
+        { "key": "D", "label": "H\u01ceo de (Okay)" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l5-q4",
+      "prompt": "Give the correct meaning of: k\u0101ihu\u00ec",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Open the door" },
+        { "key": "B", "label": "Have a meeting" },
+        { "key": "C", "label": "Start working" },
+        { "key": "D", "label": "Close the book" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l5-q5",
+      "prompt": "What is the role of \u201cle\u201d in the phrase w\u01d2 l\u00e1i w\u01ce w\u01d0n le?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "It makes the statement a question" },
+        { "key": "B", "label": "It\u2019s an interrogative particle" },
+        { "key": "C", "label": "It emphasizes the subject" },
+        { "key": "D", "label": "It\u2019s a particle denoting change to a completed state" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "l5-q6",
+      "prompt": "How is w\u01d2 pronounced?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "It sounds like [woe]" },
+        { "key": "B", "label": "It sounds like [voh]" },
+        { "key": "C", "label": "It sounds like [oo]" },
+        { "key": "D", "label": "It sounds like [ua]" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "l5-q7",
+      "prompt": "How is the final vowel \u011bng in d\u011bng pronounced?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "It sounds like [eng]" },
+        { "key": "B", "label": "It sounds like [ung]" },
+        { "key": "C", "label": "It sounds like [ing]" },
+        { "key": "D", "label": "It sounds like [ong]" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l5-q8",
+      "prompt": "How is the final vowel \u00ec in sh\u00ec pronounced?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "It sounds like [ee]" },
+        { "key": "B", "label": "It sounds like [i] as in 'pin'" },
+        { "key": "C", "label": "It sounds like 'ge' as in \u201cmassage\u201d" },
+        { "key": "D", "label": "It sounds like [err]" }
+      ],
+      "answer": "C"
+    }
+  ]
+}

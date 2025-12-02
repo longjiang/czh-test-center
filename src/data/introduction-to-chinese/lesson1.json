@@ -1,0 +1,67 @@
+{
+  "id": "lesson1",
+  "title": "Lesson 1",
+  "timeLimitSeconds": 420,
+  "questions": [
+    {
+      "id": "l1-q1",
+      "prompt": "How many tones are there in Mandarin?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Four tones and a neutral tone" },
+        { "key": "B", "label": "Six tones, including the light tone" },
+        { "key": "C", "label": "Five tones plus two emphatic tones" },
+        { "key": "D", "label": "Three principal tones and an optional glide tone" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "l1-q2",
+      "prompt": "What does nǐ hǎo mean?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Goodbye" },
+        { "key": "B", "label": "Hello" },
+        { "key": "C", "label": "How are you?" },
+        { "key": "D", "label": "Thank you" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l1-q3",
+      "prompt": "What does āyí mean?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Older sister" },
+        { "key": "B", "label": "Younger brother" },
+        { "key": "C", "label": "Aunt or auntie" },
+        { "key": "D", "label": "Elder male relative" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l1-q4",
+      "prompt": "Give the correct meaning of: Lù Jiànyáng hǎo.",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Goodbye, Lu Jianyang" },
+        { "key": "B", "label": "Lu Jianyang is good" },
+        { "key": "C", "label": "Hello, Lu Jianyang" },
+        { "key": "D", "label": "Lu Jianyang, how are you?" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l1-q5",
+      "prompt": "Give the correct meaning of: Wǒ shì Hè Méi.",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "I know He Mei" },
+        { "key": "B", "label": "She is He Mei" },
+        { "key": "C", "label": "I am good, He Mei" },
+        { "key": "D", "label": "I am He Mei" }
+      ],
+      "answer": "D"
+    }
+  ]
+}

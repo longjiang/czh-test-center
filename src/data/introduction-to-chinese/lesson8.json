@@ -1,0 +1,127 @@
+{
+  "id": "lesson8",
+  "title": "Lesson 8",
+  "timeLimitSeconds": 420,
+  "questions": [
+    {
+      "id": "l8-q1",
+      "prompt": "Give the correct meaning of: m\u00e0n",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Fast" },
+        { "key": "B", "label": "Busy" },
+        { "key": "C", "label": "Slow" },
+        { "key": "D", "label": "Tired" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l8-q2",
+      "prompt": "What phrase means 'Slow down'?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Ku\u00e0i di\u01cend (Hurry up)" },
+        { "key": "B", "label": "B\u00f9 m\u00e1ng (Not busy)" },
+        { "key": "C", "label": "M\u00e0n di\u01cend" },
+        { "key": "D", "label": "Z\u01ceo di\u01cend (Earlier)" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l8-q3",
+      "prompt": "Give the correct meaning of: q\u01d0ng (verb)",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "To welcome" },
+        { "key": "B", "label": "To invite (as a guest)" },
+        { "key": "C", "label": "To treat someone (e.g., to a meal)" },
+        { "key": "D", "label": "To thank" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l8-q4",
+      "prompt": "Give the correct meaning of: ch\u012b f\u00e0n",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "To drink water" },
+        { "key": "B", "label": "To eat fruit" },
+        { "key": "C", "label": "To eat a meal" },
+        { "key": "D", "label": "To cook dinner" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l8-q5",
+      "prompt": "How do you say 'I want \u2026 in Chinese?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "T\u0101 y\u00e0o \u2026 (He/She wants)" },
+        { "key": "B", "label": "N\u01d0 y\u00e0o \u2026 (You want)" },
+        { "key": "C", "label": "W\u01d2 y\u00e0o \u2026" },
+        { "key": "D", "label": "W\u01d2 sh\u00ec \u2026 (I am)" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l8-q6",
+      "prompt": "What phrase means 'This one'?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "N\u00e0 g\u00e8 (That one)" },
+        { "key": "B", "label": "Zh\u00e8 g\u00e8" },
+        { "key": "C", "label": "N\u01ce g\u00e8 (Which one)" },
+        { "key": "D", "label": "Y\u00ed g\u00e8 (One)" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l8-q7",
+      "prompt": "What is a common way to say 'Okay' or 'Yeah' informally?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Sh\u00ec de (Yes, formal)" },
+        { "key": "B", "label": "K\u011by\u01d0 (Can, permissible)" },
+        { "key": "C", "label": "\u0113n" },
+        { "key": "D", "label": "Xi\u00e8 xi\u00e8 (Thank you)" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l8-q8",
+      "prompt": "How do you express agreement or say 'Ok'?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "B\u00f9 x\u00edng (Not okay)" },
+        { "key": "B", "label": "H\u01ceo, h\u01ceo de (or h\u01ceo h\u01ceo h\u01ceo)" },
+        { "key": "C", "label": "M\u00e9i gu\u0101n x\u00ec (No worries)" },
+        { "key": "D", "label": "Du\u00ec b\u00f9 q\u01d0 (Sorry)" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l8-q9",
+      "prompt": "What structure is used to ask someone to hurry up?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "M\u00e0n di\u01cend (Slow down)" },
+        { "key": "B", "label": "Ku\u00e0i repeated three times, or ku\u00e0i di\u01cend" },
+        { "key": "C", "label": "Q\u01d0ng + [Verb]" },
+        { "key": "D", "label": "W\u01d2 y\u00e0o + [Action]" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l8-q10",
+      "prompt": "What is the general structure used to express what you wish to have?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "W\u01d2 sh\u00ec + [thing] (I am)" },
+        { "key": "B", "label": "W\u01d2 b\u00f9 y\u00e0o + [thing] (I don't want)" },
+        { "key": "C", "label": "W\u01d2 y\u00e0o + [thing]" },
+        { "key": "D", "label": "W\u01d2 x\u01d0hu\u0101n + [thing] (I like)" }
+      ],
+      "answer": "C"
+    }
+  ]
+}

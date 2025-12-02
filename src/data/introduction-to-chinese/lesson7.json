@@ -1,0 +1,103 @@
+{
+  "id": "lesson7",
+  "title": "Lesson 7",
+  "timeLimitSeconds": 420,
+  "questions": [
+    {
+      "id": "l7-q1",
+      "prompt": "Give the correct meaning of: z\u01d2u",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "To stop" },
+        { "key": "B", "label": "To run" },
+        { "key": "C", "label": "To walk, go" },
+        { "key": "D", "label": "To drive" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l7-q2",
+      "prompt": "What particle is used when making a suggestion (e.g., 'Let's go')?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Ma (question particle)" },
+        { "key": "B", "label": "Ne (follow-up question particle)" },
+        { "key": "C", "label": "Ba" },
+        { "key": "D", "label": "Le (change of state particle)" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l7-q3",
+      "prompt": "What is the Chinese word for 'amusement park'?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "G\u014dngyu\u00e1n (Public park)" },
+        { "key": "B", "label": "B\u00f3w\u00f9gu\u01ce (Museum)" },
+        { "key": "C", "label": "Y\u00f3ul\u00e8ch\u01ceng" },
+        { "key": "D", "label": "Gu\u01cengch\u01ceng (Square)" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l7-q4",
+      "prompt": "Give the correct meaning of: d\u011bng",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "To arrive" },
+        { "key": "B", "label": "To hurry" },
+        { "key": "C", "label": "To wait" },
+        { "key": "D", "label": "To leave" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l7-q5",
+      "prompt": "What structure do you use to ask someone to do something momentarily?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Y\u00e0o + [Verb] + le" },
+        { "key": "B", "label": "[Verb] + y\u012b xi\u00e0" },
+        { "key": "C", "label": "G\u011bi + [Verb]" },
+        { "key": "D", "label": "Q\u01d0ng + [Verb] + de" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l7-q6",
+      "prompt": "What is the structure used to call someone to action?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "[Action] + ma" },
+        { "key": "B", "label": "B\u00f9 + [Action]" },
+        { "key": "C", "label": "[Verb] + ba, or [Verb] x 3" },
+        { "key": "D", "label": "W\u01d2 + [Action]" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l7-q7",
+      "prompt": "What phrase is used to ask someone to hurry up?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "M\u00e0n di\u01cend (Slower)" },
+        { "key": "B", "label": "B\u00f9 m\u00e1ng (Not busy)" },
+        { "key": "C", "label": "Ku\u00e0i di\u01cend" },
+        { "key": "D", "label": "Z\u01ceo di\u01cend (Earlier)" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l7-q8",
+      "prompt": "How do you say 'Let's go, let's go, let's go'?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Q\u00f9 q\u00f9 q\u00f9" },
+        { "key": "B", "label": "L\u00e1i l\u00e1i l\u00e1i" },
+        { "key": "C", "label": "Ku\u00e0i ku\u00e0i ku\u00e0i" },
+        { "key": "D", "label": "Z\u01d2u z\u01d2u z\u01d2u" }
+      ],
+      "answer": "D"
+    }
+  ]
+}

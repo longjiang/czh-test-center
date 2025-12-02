@@ -1,0 +1,103 @@
+{
+  "id": "lesson12",
+  "title": "Lesson 12",
+  "timeLimitSeconds": 420,
+  "questions": [
+    {
+      "id": "l12-q1",
+      "prompt": "Give the correct meaning of: hu\u00edl\u00e1i",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "To go out" },
+        { "key": "B", "label": "To leave" },
+        { "key": "C", "label": "To go home" },
+        { "key": "D", "label": "To come back" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "l12-q2",
+      "prompt": "Give the correct meaning of: k\u016b",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "To laugh" },
+        { "key": "B", "label": "To run" },
+        { "key": "C", "label": "To cry" },
+        { "key": "D", "label": "To shout" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l12-q3",
+      "prompt": "What particle indicates that an action has been completed?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Ma (Question particle)" },
+        { "key": "B", "label": "Ba (Suggestion particle)" },
+        { "key": "C", "label": "Ne (Follow-up particle)" },
+        { "key": "D", "label": "Le" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "l12-q4",
+      "prompt": "Give the correct meaning of: ch\u01ceoji\u00e0",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "To eat dinner" },
+        { "key": "B", "label": "To have a meeting" },
+        { "key": "C", "label": "To talk loudly" },
+        { "key": "D", "label": "To quarrel, to have a fight" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "l12-q5",
+      "prompt": "What is the informal word used to mean \"two people?\"",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Li\u01ceng g\u00e8 (Two of something)" },
+        { "key": "B", "label": "Li\u01ce" },
+        { "key": "C", "label": "\u00c8r sh\u00ed (Twenty)" },
+        { "key": "D", "label": "G\u00e8 r\u00e9n (Individual)" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l12-q6",
+      "prompt": "Answer the question \u201cn\u01d0 k\u016b le?\u201d (Did you cry?) in the negative.",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "B\u00f9 k\u016b (Do not cry)" },
+        { "key": "B", "label": "B\u00f9 sh\u00ec (It is not)" },
+        { "key": "C", "label": "M\u00e9iy\u01d2u" },
+        { "key": "D", "label": "B\u00f9 x\u00edng (Not permitted)" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l12-q7",
+      "prompt": "What phrase means \"you two\"?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "N\u01d0men (You all)" },
+        { "key": "B", "label": "N\u01d0men li\u01ce" },
+        { "key": "C", "label": "W\u01d2men li\u01ce (We two)" },
+        { "key": "D", "label": "N\u01d0 g\u00e8" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l12-q8",
+      "prompt": "What is the meaning of \u0113n when used as a reply?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "No" },
+        { "key": "B", "label": "Goodbye" },
+        { "key": "C", "label": "Yes / Mm." },
+        { "key": "D", "label": "Thank you" }
+      ],
+      "answer": "C"
+    }
+  ]
+}
