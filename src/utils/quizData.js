@@ -11,6 +11,7 @@ import lesson10 from '../data/introduction-to-chinese/lesson10.json';
 import lesson11 from '../data/introduction-to-chinese/lesson11.json';
 import lesson12 from '../data/introduction-to-chinese/lesson12.json';
 import midterm from '../data/introduction-to-chinese/midterm.json';
+import finalExam from '../data/introduction-to-chinese/final-exam.json';
 
 const introCourse = {
   id: 'introduction-to-chinese',
@@ -23,6 +24,7 @@ const introCourse = {
     lesson5,
     lesson6,
     midterm,
+    finalExam,
     lesson7,
     lesson8,
     lesson9,

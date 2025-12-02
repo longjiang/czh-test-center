@@ -1,0 +1,248 @@
+{
+  "id": "final-exam",
+  "title": "Final Exam",
+  "timeLimitSeconds": 1200,
+  "pointsPerQuestion": 1,
+  "questions": [
+    {
+      "id": "fe-q1",
+      "prompt": "Which “i” sounds different from the others? yi, si, xi, lia",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "yi" },
+        { "key": "B", "label": "si" },
+        { "key": "C", "label": "xi" },
+        { "key": "D", "label": "lia" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "fe-q2",
+      "prompt": "Which “e” sounds different from the others? ke, mei, men, gei",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "ke" },
+        { "key": "B", "label": "mei" },
+        { "key": "C", "label": "men" },
+        { "key": "D", "label": "gei" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-q3",
+      "prompt": "Which “u” sounds different from the others? bu, qu, ku, du",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "bu" },
+        { "key": "B", "label": "qu" },
+        { "key": "C", "label": "ku" },
+        { "key": "D", "label": "du" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "fe-q4",
+      "prompt": "Choose the one that is not in the same category as the others: Píjiǔ, shuǐ, chá, péngyǒu",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Píjiǔ" },
+        { "key": "B", "label": "Shuǐ" },
+        { "key": "C", "label": "Chá" },
+        { "key": "D", "label": "Péngyǒu" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "fe-q5",
+      "prompt": "Choose the one that is not in the same category as the others: Bà, āyí, gē, shuǐguǒ",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Bà" },
+        { "key": "B", "label": "Āyí" },
+        { "key": "C", "label": "Gē" },
+        { "key": "D", "label": "Shuǐguǒ" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "fe-q6",
+      "prompt": "Choose the one that is not in the same category as the others: Shuì, jīntiān, chǎojià, děng",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Shuì" },
+        { "key": "B", "label": "Jīntiān" },
+        { "key": "C", "label": "Chǎojià" },
+        { "key": "D", "label": "Děng" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "fe-q7",
+      "prompt": "Choose the one that is not in the same category as the others: Xiǎo, hǎo, màn, kū",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Xiǎo" },
+        { "key": "B", "label": "Hǎo" },
+        { "key": "C", "label": "Màn" },
+        { "key": "D", "label": "Kū" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "fe-q8",
+      "prompt": "Fill in the blank: Lái, hē ____.",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "chá" },
+        { "key": "B", "label": "kāfēi" },
+        { "key": "C", "label": "píjiǔ" },
+        { "key": "D", "label": "shuǐ" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-q9",
+      "prompt": "Fill in the blank: Wǒmen qù _____ ba!",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "xuéxiào" },
+        { "key": "B", "label": "yóulèchǎng" },
+        { "key": "C", "label": "gōngyuán" },
+        { "key": "D", "label": "jiā" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "fe-q10",
+      "prompt": "Fill in the blank: Lái, wǒ ___ nǐ hē jiǔ.",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "qǐng" },
+        { "key": "B", "label": "péi" },
+        { "key": "C", "label": "qù" },
+        { "key": "D", "label": "mǎi" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "fe-q11",
+      "prompt": "Fill in the blank: Zěnme, nǐ __ le?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "xiào" },
+        { "key": "B", "label": "kū" },
+        { "key": "C", "label": "shuì" },
+        { "key": "D", "label": "chī" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "fe-q12",
+      "prompt": "Choose the correct response: Děng wǒ yīxià.",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Kuài diǎnr, kuài diǎnr!" },
+        { "key": "B", "label": "Hǎo, wǒ jiāyóu." },
+        { "key": "C", "label": "Bù hē le." },
+        { "key": "D", "label": "Wǒ bù qù." }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-q13",
+      "prompt": "Choose the correct response: Xiàbān le ma?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Hái méi." },
+        { "key": "B", "label": "Hěn lèi." },
+        { "key": "C", "label": "Wǒ chī fàn le." },
+        { "key": "D", "label": "Méi wèntí." }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-q14",
+      "prompt": "Choose the correct response: Nǐ zuótiān hē jiǔ le ma?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Hē le." },
+        { "key": "B", "label": "Méi hē a." },
+        { "key": "C", "label": "Hěn kuài." },
+        { "key": "D", "label": "Bù chī." }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "fe-q15",
+      "prompt": "Choose the correct response: Nǐ yào zhè gè ma?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Yào." },
+        { "key": "B", "label": "Bù xiǎng." },
+        { "key": "C", "label": "Hǎo chī." },
+        { "key": "D", "label": "Duì le." }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-q16",
+      "prompt": "Choose the correct translation: Nǐmen zuótiān wǎnshàng chǎojià le?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Did you (all) argue last night?" },
+        { "key": "B", "label": "Did you all eat dinner yesterday?" },
+        { "key": "C", "label": "Did you go out last evening?" },
+        { "key": "D", "label": "Were you all working last night?" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-q17",
+      "prompt": "Choose the correct translation: Xíng, wǒ qù.",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Okay, I'll go." },
+        { "key": "B", "label": "No, I won't go." },
+        { "key": "C", "label": "I am here already." },
+        { "key": "D", "label": "I'm going home now." }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-q18",
+      "prompt": "Choose the correct translation: Tā shì lǎo péngyǒu.",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "He/She is an old friend." },
+        { "key": "B", "label": "He/She is my old teacher." },
+        { "key": "C", "label": "He/She is very old." },
+        { "key": "D", "label": "He/She is a family member." }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-q19",
+      "prompt": "Choose the correct translation: Bié hē jiǔ le!",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Stop drinking alcohol!" },
+        { "key": "B", "label": "Don't buy any wine!" },
+        { "key": "C", "label": "Please drink more alcohol!" },
+        { "key": "D", "label": "Drink water instead!" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-q20",
+      "prompt": "Choose the correct translation: Wǒmen hē diǎn shuǐ ba.",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Let's drink some water." },
+        { "key": "B", "label": "Let's go swimming." },
+        { "key": "C", "label": "We drank some wine." },
+        { "key": "D", "label": "We should buy some drinks." }
+      ],
+      "answer": "A"
+    }
+  ]
+}
