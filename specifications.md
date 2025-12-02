@@ -30,3 +30,6 @@ The goal is to build an interactive quiz and exam interface for **Chinese Zero t
 3.  **In-Progress:**
     * Each quiz/exam has a **time limit**.
     * Students must see a **progress countdown bar and timer** while completing the questions.
+4.  **Submission and Feedback:**
+    * After submitting, students must see the **correct answers** for all questions.
+    * The interface must clearly show **which questions were answered incorrectly** so students know where they lost points.

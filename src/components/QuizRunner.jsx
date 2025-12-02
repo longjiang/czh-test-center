@@ -33,7 +33,7 @@ function QuizRunner({ quiz, courseName }) {
   }, [hasStarted, submitted, remainingSeconds]);
 
   const correctCount = useMemo(() => {
-    if (!submitted) return 0;
+    if (!submitted || !quiz) return 0;
     return quiz.questions.reduce((count, question) => {
       return answers[question.id] === question.answer ? count + 1 : count;
     }, 0);
@@ -89,15 +89,23 @@ function QuizRunner({ quiz, courseName }) {
 
       {hasStarted && (
         <div className="space-y-4">
-          {quiz.questions.map((question) => (
-            <QuestionCard
-              key={question.id}
-              question={question}
-              selectedOption={answers[question.id]}
-              onSelect={(optionKey) => handleSelect(question.id, optionKey)}
-              disabled={submitted}
-            />
-          ))}
+          {quiz.questions.map((question) => {
+            const correctOption = question.options.find((option) => option.key === question.answer);
+            const selectedOption = answers[question.id];
+            const isCorrect = submitted ? selectedOption === question.answer : null;
+            return (
+              <QuestionCard
+                key={question.id}
+                question={question}
+                selectedOption={selectedOption}
+                correctOption={correctOption}
+                isCorrect={isCorrect}
+                submitted={submitted}
+                onSelect={(optionKey) => handleSelect(question.id, optionKey)}
+                disabled={submitted}
+              />
+            );
+          })}
         </div>
       )}
 
@@ -107,9 +115,14 @@ function QuizRunner({ quiz, courseName }) {
             {submitted ? 'Submitted' : 'Submit Answers'}
           </button>
           {submitted && (
-            <span className="text-sm text-slate-700">
-              Score: {correctCount} / {quiz.questions.length}
-            </span>
+            <div className="text-sm text-slate-700 flex flex-col gap-1">
+              <span>
+                Score: {correctCount} / {quiz.questions.length}
+              </span>
+              <span className="text-slate-600">
+                Review answers below — correct options are highlighted in green, and any mistakes in red.
+              </span>
+            </div>
           )}
         </div>
       )}
