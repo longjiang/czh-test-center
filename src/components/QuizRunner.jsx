@@ -89,7 +89,7 @@ function QuizRunner({ quiz, courseName }) {
 
       {hasStarted && (
         <div className="space-y-4">
-          {quiz.questions.map((question) => {
+          {quiz.questions.map((question, index) => {
             const correctOption = question.options.find((option) => option.key === question.answer);
             const selectedOption = answers[question.id];
             const isCorrect = submitted ? selectedOption === question.answer : null;
@@ -103,6 +103,7 @@ function QuizRunner({ quiz, courseName }) {
                 submitted={submitted}
                 onSelect={(optionKey) => handleSelect(question.id, optionKey)}
                 disabled={submitted}
+                ordinal={index + 1}
               />
             );
           })}
