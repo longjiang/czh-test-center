@@ -1,0 +1,488 @@
+{
+  "id": "midterm",
+  "title": "Midterm",
+  "timeLimitSeconds": 1200,
+  "pointsPerQuestion": 1,
+  "questions": [
+    {
+      "id": "l6-q6",
+      "prompt": "How do you say 'We, us' in Chinese?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Tāmen"
+        },
+        {
+          "key": "B",
+          "label": "Nǐmen"
+        },
+        {
+          "key": "C",
+          "label": "Wǒmen"
+        },
+        {
+          "key": "D",
+          "label": "Rénmen"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l5-q7",
+      "prompt": "How is the final vowel ěng in děng pronounced?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "It sounds like [eng]"
+        },
+        {
+          "key": "B",
+          "label": "It sounds like [ung]"
+        },
+        {
+          "key": "C",
+          "label": "It sounds like [ing]"
+        },
+        {
+          "key": "D",
+          "label": "It sounds like [ong]"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l1-q3",
+      "prompt": "What does āyí mean?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Older sister"
+        },
+        {
+          "key": "B",
+          "label": "Younger brother"
+        },
+        {
+          "key": "C",
+          "label": "Aunt or auntie"
+        },
+        {
+          "key": "D",
+          "label": "Elder male relative"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l2-q6",
+      "prompt": "What does “xià” in pinyin sound like?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Sounds like [zee-ah]"
+        },
+        {
+          "key": "B",
+          "label": "Sounds like [sha]"
+        },
+        {
+          "key": "C",
+          "label": "Sounds like [shia]"
+        },
+        {
+          "key": "D",
+          "label": "Sounds like [ksia]"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l4-q3",
+      "prompt": "What is the common reply to “xiè xiè”?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Méi guān xì (It doesn't matter)"
+        },
+        {
+          "key": "B",
+          "label": "Zài jiàn (Goodbye)"
+        },
+        {
+          "key": "C",
+          "label": "Bù kè qì"
+        },
+        {
+          "key": "D",
+          "label": "Nǐ hǎo (Hello)"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l6-q10",
+      "prompt": "Give the correct meaning of: chá",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Coffee"
+        },
+        {
+          "key": "B",
+          "label": "Water"
+        },
+        {
+          "key": "C",
+          "label": "Tea"
+        },
+        {
+          "key": "D",
+          "label": "Milk"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l5-q4",
+      "prompt": "Give the correct meaning of: kāihuì",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Open the door"
+        },
+        {
+          "key": "B",
+          "label": "Have a meeting"
+        },
+        {
+          "key": "C",
+          "label": "Start working"
+        },
+        {
+          "key": "D",
+          "label": "Close the book"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l2-q5",
+      "prompt": "Give the correct meaning of qí míngyuè zài jiàn",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Hello, Qi Mingyue"
+        },
+        {
+          "key": "B",
+          "label": "Qi Mingyue is good"
+        },
+        {
+          "key": "C",
+          "label": "Goodbye, Qi Mingyue"
+        },
+        {
+          "key": "D",
+          "label": "Qi Mingyue, next time"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l6-q8",
+      "prompt": "What structure is used to dissuade someone from an action?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Bù + [action] + guò"
+        },
+        {
+          "key": "B",
+          "label": "Wǒ bù + [action]"
+        },
+        {
+          "key": "C",
+          "label": "Bié + [action] + le"
+        },
+        {
+          "key": "D",
+          "label": "Yào + [action] + ma"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l6-q7",
+      "prompt": "What is the verb for 'to accompany'?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Zǒu"
+        },
+        {
+          "key": "B",
+          "label": "Qù"
+        },
+        {
+          "key": "C",
+          "label": "Péi"
+        },
+        {
+          "key": "D",
+          "label": "Kàn"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l6-q5",
+      "prompt": "What phrase or word is commonly used to invite someone to an action (e.g., 'Come, eat fruit')?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Qǐng (Please)"
+        },
+        {
+          "key": "B",
+          "label": "Kuài (Fast)"
+        },
+        {
+          "key": "C",
+          "label": "Lái (or lái lái lái)"
+        },
+        {
+          "key": "D",
+          "label": "Yào (Want)"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l4-q2",
+      "prompt": "Give the correct meaning of: kè qì",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "To be very hungry"
+        },
+        {
+          "key": "B",
+          "label": "To be overly polite"
+        },
+        {
+          "key": "C",
+          "label": "To be generous"
+        },
+        {
+          "key": "D",
+          "label": "To be quick"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "l4-q1",
+      "prompt": "Give the correct meaning of: xiè xiè",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Hello"
+        },
+        {
+          "key": "B",
+          "label": "Goodbye"
+        },
+        {
+          "key": "C",
+          "label": "Excuse me"
+        },
+        {
+          "key": "D",
+          "label": "Thank you"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "l3-q3",
+      "prompt": "How do you respond when someone is calling out to you?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Wǒ lái le (I'm coming)"
+        },
+        {
+          "key": "B",
+          "label": "Shì de (Yes)"
+        },
+        {
+          "key": "C",
+          "label": "Hǎo de (Okay)"
+        },
+        {
+          "key": "D",
+          "label": "āi"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "l6-q9",
+      "prompt": "How is the final vowel ī in chī pronounced?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "It sounds like [ee] as in 'see'"
+        },
+        {
+          "key": "B",
+          "label": "It sounds like [i] as in 'pin'"
+        },
+        {
+          "key": "C",
+          "label": "It sounds like [ge] as in massage"
+        },
+        {
+          "key": "D",
+          "label": "It sounds like [e] as in 'get'"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l5-q1",
+      "prompt": "Give the correct meaning of: duì bù qǐ",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Thank you"
+        },
+        {
+          "key": "B",
+          "label": "Excuse me"
+        },
+        {
+          "key": "C",
+          "label": "Sorry"
+        },
+        {
+          "key": "D",
+          "label": "Goodbye"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l2-q2",
+      "prompt": "Give the correct meaning of zài jiàn",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Hello again"
+        },
+        {
+          "key": "B",
+          "label": "See you next time"
+        },
+        {
+          "key": "C",
+          "label": "Goodbye"
+        },
+        {
+          "key": "D",
+          "label": "See you soon"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l5-q6",
+      "prompt": "How is wǒ pronounced?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "It sounds like [woe]"
+        },
+        {
+          "key": "B",
+          "label": "It sounds like [voh]"
+        },
+        {
+          "key": "C",
+          "label": "It sounds like [oo]"
+        },
+        {
+          "key": "D",
+          "label": "It sounds like [ua]"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "l2-q7",
+      "prompt": "How is “c” in pinyin pronounced?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "It is pronounced like [ch]"
+        },
+        {
+          "key": "B",
+          "label": "It is pronounced like [k]"
+        },
+        {
+          "key": "C",
+          "label": "It is pronounced like [ts]"
+        },
+        {
+          "key": "D",
+          "label": "It is pronounced like [s]"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "l3-q1",
+      "prompt": "Give the correct meaning of bà",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "key": "A",
+          "label": "Mom"
+        },
+        {
+          "key": "B",
+          "label": "Brother"
+        },
+        {
+          "key": "C",
+          "label": "Dad"
+        },
+        {
+          "key": "D",
+          "label": "Grandma"
+        }
+      ],
+      "answer": "C"
+    }
+  ]
+}
