@@ -1,7 +1,7 @@
 {
   "id": "final-exam",
   "title": "Final Exam",
-  "timeLimitSeconds": 1200,
+  "timeLimitSeconds": 2400,
   "pointsPerQuestion": 1,
   "resetOrdinalAt": "fe-q21",
   "fullScore": 30,
