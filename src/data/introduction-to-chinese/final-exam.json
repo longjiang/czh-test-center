@@ -294,11 +294,11 @@
       "type": "image-set",
       "label": "Image set (A-E) for questions 21-25",
       "options": [
-        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set1-a.svg" },
-        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set1-b.svg" },
-        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set1-c.svg" },
-        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set1-d.svg" },
-        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set1-e.svg" }
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/再见.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/吃米饭.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/吃东西.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/我和儿子.jpeg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/请喝茶.jpeg" }
       ]
     },
     {
@@ -307,11 +307,11 @@
       "audioSrc": "/assets/final-exam/audio/再见.mp3",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set1-a.svg" },
-        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set1-b.svg" },
-        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set1-c.svg" },
-        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set1-d.svg" },
-        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set1-e.svg" }
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/再见.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/吃米饭.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/吃东西.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/我和儿子.jpeg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/请喝茶.jpeg" }
       ],
       "answer": "A"
     },
@@ -321,11 +321,11 @@
       "audioSrc": "/assets/final-exam/audio/吃东西.mp3",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set1-a.svg" },
-        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set1-b.svg" },
-        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set1-c.svg" },
-        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set1-d.svg" },
-        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set1-e.svg" }
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/再见.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/吃米饭.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/吃东西.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/我和儿子.jpeg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/请喝茶.jpeg" }
       ],
       "answer": "C"
     },
@@ -335,11 +335,11 @@
       "audioSrc": "/assets/final-exam/audio/吃米饭.mp3",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set1-a.svg" },
-        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set1-b.svg" },
-        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set1-c.svg" },
-        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set1-d.svg" },
-        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set1-e.svg" }
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/再见.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/吃米饭.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/吃东西.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/我和儿子.jpeg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/请喝茶.jpeg" }
       ],
       "answer": "B"
     },
@@ -349,11 +349,11 @@
       "audioSrc": "/assets/final-exam/audio/我和儿子.mp3",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set1-a.svg" },
-        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set1-b.svg" },
-        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set1-c.svg" },
-        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set1-d.svg" },
-        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set1-e.svg" }
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/再见.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/吃米饭.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/吃东西.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/我和儿子.jpeg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/请喝茶.jpeg" }
       ],
       "answer": "D"
     },
@@ -363,11 +363,11 @@
       "audioSrc": "/assets/final-exam/audio/请喝茶.mp3",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set1-a.svg" },
-        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set1-b.svg" },
-        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set1-c.svg" },
-        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set1-d.svg" },
-        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set1-e.svg" }
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/再见.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/吃米饭.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/吃东西.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/我和儿子.jpeg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/请喝茶.jpeg" }
       ],
       "answer": "E"
     },
@@ -381,11 +381,11 @@
       "type": "image-set",
       "label": "Image set (A-E) for questions 26-30",
       "options": [
-        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set2-a.svg" },
-        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set2-b.svg" },
-        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set2-c.svg" },
-        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set2-d.svg" },
-        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set2-e.svg" }
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/喂？是王先生吗？.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/男：你好！女：你好！很高兴认识你。.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/这是你的朋友吗？.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/男：谢谢你们！女：不客气，再见！.jpeg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/下午我去商店，我想买一些水果。.jpeg" }
       ]
     },
     {
@@ -394,11 +394,11 @@
       "audioSrc": "/assets/final-exam/audio/喂？是王先生吗？.mp3",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set2-a.svg" },
-        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set2-b.svg" },
-        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set2-c.svg" },
-        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set2-d.svg" },
-        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set2-e.svg" }
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/喂？是王先生吗？.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/男：你好！女：你好！很高兴认识你。.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/这是你的朋友吗？.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/男：谢谢你们！女：不客气，再见！.jpeg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/下午我去商店，我想买一些水果。.jpeg" }
       ],
       "answer": "A"
     },
@@ -408,13 +408,13 @@
       "audioSrc": "/assets/final-exam/audio/下午我去商店，我想买一些水果。.mp3",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set2-a.svg" },
-        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set2-b.svg" },
-        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set2-c.svg" },
-        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set2-d.svg" },
-        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set2-e.svg" }
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/喂？是王先生吗？.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/男：你好！女：你好！很高兴认识你。.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/这是你的朋友吗？.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/男：谢谢你们！女：不客气，再见！.jpeg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/下午我去商店，我想买一些水果。.jpeg" }
       ],
-      "answer": "B"
+      "answer": "E"
     },
     {
       "id": "fe-q28",
@@ -422,11 +422,11 @@
       "audioSrc": "/assets/final-exam/audio/这是你的朋友吗？.mp3",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set2-a.svg" },
-        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set2-b.svg" },
-        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set2-c.svg" },
-        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set2-d.svg" },
-        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set2-e.svg" }
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/喂？是王先生吗？.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/男：你好！女：你好！很高兴认识你。.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/这是你的朋友吗？.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/男：谢谢你们！女：不客气，再见！.jpeg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/下午我去商店，我想买一些水果。.jpeg" }
       ],
       "answer": "C"
     },
@@ -436,11 +436,11 @@
       "audioSrc": "/assets/final-exam/audio/男：谢谢你们！女：不客气，再见！.mp3",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set2-a.svg" },
-        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set2-b.svg" },
-        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set2-c.svg" },
-        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set2-d.svg" },
-        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set2-e.svg" }
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/喂？是王先生吗？.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/男：你好！女：你好！很高兴认识你。.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/这是你的朋友吗？.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/男：谢谢你们！女：不客气，再见！.jpeg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/下午我去商店，我想买一些水果。.jpeg" }
       ],
       "answer": "D"
     },
@@ -450,13 +450,13 @@
       "audioSrc": "/assets/final-exam/audio/男：你好！女：你好！很高兴认识你。.mp3",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/set2-a.svg" },
-        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/set2-b.svg" },
-        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/set2-c.svg" },
-        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/set2-d.svg" },
-        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/set2-e.svg" }
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/喂？是王先生吗？.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/男：你好！女：你好！很高兴认识你。.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/这是你的朋友吗？.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/男：谢谢你们！女：不客气，再见！.jpeg" },
+        { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/下午我去商店，我想买一些水果。.jpeg" }
       ],
-      "answer": "E"
+      "answer": "B"
     }
   ]
 }
