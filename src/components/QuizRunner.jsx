@@ -10,6 +10,7 @@ function QuizRunner({ quiz, courseName }) {
   const [submitted, setSubmitted] = useState(false);
   const questionCount =
     quiz?.questions?.filter((item) => item.type !== 'heading' && item.type !== 'image-set').length ?? 0;
+  const resetIndexAt = quiz?.resetOrdinalAt ?? null;
 
   useEffect(() => {
     setHasStarted(false);
@@ -139,6 +140,9 @@ function QuizRunner({ quiz, courseName }) {
                     </div>
                   </div>
                 );
+              }
+              if (resetIndexAt && item.id === resetIndexAt) {
+                ordinal = 0;
               }
               ordinal += 1;
               const correctOption = item.options.find((option) => option.key === item.answer);

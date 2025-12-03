@@ -3,6 +3,7 @@
   "title": "Final Exam",
   "timeLimitSeconds": 1200,
   "pointsPerQuestion": 1,
+  "resetOrdinalAt": "fe-q21",
   "questions": [
     {
       "id": "fe-h1",
