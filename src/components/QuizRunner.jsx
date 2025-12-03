@@ -98,9 +98,16 @@ function QuizRunner({ quiz, courseName }) {
             let ordinal = 0;
             return quiz.questions.map((item) => {
               if (item.type === 'heading') {
+                const level = Math.min(Math.max(item.level ?? 2, 2), 4);
+                const Tag = `h${level}`;
+                const sizing = {
+                  2: 'text-lg',
+                  3: 'text-base',
+                  4: 'text-sm',
+                }[level];
                 return (
                   <div key={item.id} className="px-1 py-2">
-                    <p className="text-sm font-semibold text-slate-800">{item.label}</p>
+                    <Tag className={`${sizing} font-semibold text-slate-800`}>{item.label}</Tag>
                   </div>
                 );
               }

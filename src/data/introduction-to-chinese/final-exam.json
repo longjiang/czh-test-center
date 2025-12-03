@@ -277,17 +277,20 @@
     {
       "id": "fe-h6",
       "type": "heading",
-      "label": "Part 2. Questions based on HSK 1 (20 questions)"
+      "label": "Part 2. Questions based on HSK 1 (20 questions)",
+      "level": 2
     },
     {
       "id": "fe-h7",
       "type": "heading",
-      "label": "Listening"
+      "label": "Listening",
+      "level": 3
     },
     {
       "id": "fe-h8",
       "type": "heading",
-      "label": "Identify the picture that matches the phrase you hear."
+      "label": "Identify the picture that matches the phrase you hear.",
+      "level": 4
     },
     {
       "id": "fe-media-set-1",
@@ -374,7 +377,8 @@
     {
       "id": "fe-h9",
       "type": "heading",
-      "label": "Identify the picture that matches the sentence or dialogue you hear."
+      "label": "Identify the picture that matches the sentence or dialogue you hear.",
+      "level": 4
     },
     {
       "id": "fe-media-set-2",
