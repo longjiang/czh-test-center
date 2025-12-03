@@ -472,6 +472,175 @@
         { "key": "E", "label": "Image E", "image": "/assets/final-exam/images/下午我去商店，我想买一些水果。.jpeg" }
       ],
       "answer": "B"
+    },
+    {
+      "id": "fe-h10",
+      "type": "heading",
+      "label": "Part 3. Reading (10 questions)",
+      "level": 2
+    },
+    {
+      "id": "fe-h11",
+      "type": "heading",
+      "label": "Determine if the picture matches the words.",
+      "level": 3
+    },
+    {
+      "id": "fe-media-set-3",
+      "type": "image-set",
+      "label": "Image set (A-D) for questions 31-34",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/水.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/茶.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/睡觉.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/工作.jpeg" }
+      ]
+    },
+    {
+      "id": "fe-q31",
+      "prompt": "shuǐ",
+      "type": "multiple-choice",
+      "displayAs": "dropdown",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/水.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/茶.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/睡觉.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/工作.jpeg" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-q32",
+      "prompt": "gōngzuò",
+      "type": "multiple-choice",
+      "displayAs": "dropdown",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/水.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/茶.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/睡觉.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/工作.jpeg" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "fe-q33",
+      "prompt": "shuìjiào",
+      "type": "multiple-choice",
+      "displayAs": "dropdown",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/水.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/茶.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/睡觉.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/工作.jpeg" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "fe-q34",
+      "prompt": "chá",
+      "type": "multiple-choice",
+      "displayAs": "dropdown",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/水.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/茶.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/睡觉.jpeg" },
+        { "key": "D", "label": "Image D", "image": "/assets/final-exam/images/工作.jpeg" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "fe-h12",
+      "type": "heading",
+      "label": "Identify the picture that matches the following sentences.",
+      "level": 3
+    },
+    {
+      "id": "fe-media-set-4",
+      "type": "image-set",
+      "label": "Image set (A-C) for questions 35-37",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/对不起，今天天气太热了。.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/喂，你睡觉了吗？.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/天气太热了，多吃些水果。.jpeg" }
+      ]
+    },
+    {
+      "id": "fe-q35",
+      "prompt": "Tiānqì tài rè le, duō chī xiē shuǐguǒ.",
+      "type": "multiple-choice",
+      "displayAs": "dropdown",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/对不起，今天天气太热了。.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/喂，你睡觉了吗？.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/天气太热了，多吃些水果。.jpeg" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "fe-q36",
+      "prompt": "Wèi, nǐ shuìjiào le ma?",
+      "type": "multiple-choice",
+      "displayAs": "dropdown",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/对不起，今天天气太热了。.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/喂，你睡觉了吗？.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/天气太热了，多吃些水果。.jpeg" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "fe-q37",
+      "prompt": "Duìbuqǐ, jīntiān tiānqì tài rè le.",
+      "type": "multiple-choice",
+      "displayAs": "dropdown",
+      "options": [
+        { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/对不起，今天天气太热了。.jpeg" },
+        { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/喂，你睡觉了吗？.jpeg" },
+        { "key": "C", "label": "Image C", "image": "/assets/final-exam/images/天气太热了，多吃些水果。.jpeg" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-h13",
+      "type": "heading",
+      "label": "Choose the correct reply.",
+      "level": 3
+    },
+    {
+      "id": "fe-q38",
+      "prompt": "Nǐ hē shuǐ ma?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Hǎo de, xièxie!" },
+        { "key": "B", "label": "Wǒ yào gōngzuò." },
+        { "key": "C", "label": "Bù yào, wǒ hěn lèi." },
+        { "key": "D", "label": "Bù hē, wǒ chī fàn." }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "fe-q39",
+      "prompt": "Nǐ hǎo, Wáng xiānsheng zài ma?",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Tā shì wǒ de péngyou." },
+        { "key": "B", "label": "Bù zài, tā chī mǐfàn." },
+        { "key": "C", "label": "Zài, qǐng zuò, wǒ qù jiào tā." },
+        { "key": "D", "label": "Wǒ yě xiǎng hē chá." }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "fe-q40",
+      "prompt": "Xièxie nǐ qǐng wǒ kàn diànyǐng.",
+      "type": "multiple-choice",
+      "options": [
+        { "key": "A", "label": "Wǒ bù qù gōngzuò." },
+        { "key": "B", "label": "Nǐ zài nǎ lǐ?" },
+        { "key": "C", "label": "Wǒ hěn lèi le." },
+        { "key": "D", "label": "Bù kèqi." }
+      ],
+      "answer": "D"
     }
   ]
 }
