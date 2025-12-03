@@ -174,7 +174,7 @@ function QuizRunner({ quiz, courseName }) {
           {submitted && (
             <div className="text-sm text-slate-700 flex flex-col gap-1">
               <span>
-                Score: {correctCount} / {quiz.questions.length}
+                Score: {correctCount} / {questionCount}
               </span>
               <span className="text-slate-600">
                 Review answers below — correct options are highlighted in green, and any mistakes in red.
