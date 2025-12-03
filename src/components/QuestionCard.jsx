@@ -19,25 +19,23 @@ function QuestionCard({
 
   return (
     <div className={`card space-y-3 ${cardTone}`}>
-      <div className="flex items-start gap-2">
-        <div className="flex items-center gap-2">
+      <div className="flex flex-col gap-1">
+        <div className="flex items-baseline gap-2">
           <span className="text-sm font-semibold text-slate-900">
             {ordinal ? `${ordinal}.` : 'Question'}
           </span>
-        </div>
-        <div className="flex flex-col gap-1">
           <p className="text-slate-900 text-sm leading-tight font-normal">{question.prompt}</p>
-          {question.audioSrc && (
-            <audio className="mt-1" controls preload="none" src={question.audioSrc}>
-              Your browser does not support the audio element.
-            </audio>
-          )}
-          {submitted && (
-            <span className={`text-xs font-semibold uppercase ${isCorrect ? 'text-green-700' : 'text-rose-700'}`}>
-              {isCorrect ? 'Correct' : 'Incorrect'}
-            </span>
-          )}
         </div>
+        {question.audioSrc && (
+          <audio className="mt-1" controls preload="none" src={question.audioSrc}>
+            Your browser does not support the audio element.
+          </audio>
+        )}
+        {submitted && (
+          <span className={`text-xs font-semibold uppercase ${isCorrect ? 'text-green-700' : 'text-rose-700'}`}>
+            {isCorrect ? 'Correct' : 'Incorrect'}
+          </span>
+        )}
       </div>
       <div className="space-y-2">
         {question.options.map((option) => (
