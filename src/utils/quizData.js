@@ -24,13 +24,13 @@ const introCourse = {
     lesson5,
     lesson6,
     midterm,
-    finalExam,
     lesson7,
     lesson8,
     lesson9,
     lesson10,
     lesson11,
     lesson12,
+    finalExam,
   ],
 };
 
