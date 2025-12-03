@@ -125,11 +125,11 @@ function QuizRunner({ quiz, courseName }) {
                           key={option.key}
                           className="flex flex-col items-center gap-2 p-2"
                         >
-                          <div className="flex items-center justify-center w-full bg-white rounded">
+                          <div className="flex items-center justify-center w-full bg-white rounded aspect-square overflow-hidden">
                             <img
                               src={option.image}
                               alt={option.alt ?? option.label ?? `Image ${option.key}`}
-                              className="w-full h-auto rounded shadow"
+                              className="h-full w-full object-cover"
                             />
                           </div>
                           <div className="text-xs font-semibold text-slate-700 uppercase tracking-wide">
