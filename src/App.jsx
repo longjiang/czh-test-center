@@ -4,8 +4,8 @@ import QuizRunner from './components/QuizRunner.jsx';
 import { courses, getQuiz } from './utils/quizData.js';
 
 function App() {
-  const [selectedCourseId, setSelectedCourseId] = useState(courses[0]?.id ?? '');
-  const [selectedQuizId, setSelectedQuizId] = useState(courses[0]?.quizzes[0]?.id ?? '');
+  const [selectedCourseId, setSelectedCourseId] = useState('');
+  const [selectedQuizId, setSelectedQuizId] = useState('');
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -16,7 +16,7 @@ function App() {
     if (courseFromUrl) {
       setSelectedCourseId(courseFromUrl.id);
       const quizFromUrl = courseFromUrl.quizzes.find((quiz) => quiz.id === quizParam);
-      setSelectedQuizId(quizFromUrl?.id ?? courseFromUrl.quizzes[0]?.id ?? '');
+      setSelectedQuizId(quizFromUrl?.id ?? '');
     }
   }, []);
 
@@ -26,8 +26,15 @@ function App() {
   );
 
   useEffect(() => {
-    if (selectedCourse && !selectedCourse.quizzes.find((quiz) => quiz.id === selectedQuizId)) {
-      setSelectedQuizId(selectedCourse.quizzes[0]?.id ?? '');
+    if (!selectedCourse) {
+      if (selectedQuizId !== '') {
+        setSelectedQuizId('');
+      }
+      return;
+    }
+
+    if (selectedQuizId && !selectedCourse.quizzes.find((quiz) => quiz.id === selectedQuizId)) {
+      setSelectedQuizId('');
     }
   }, [selectedCourse, selectedQuizId]);
 
@@ -39,7 +46,12 @@ function App() {
     window.history.replaceState({}, '', url);
   }, [selectedCourseId, selectedQuizId]);
 
-  const currentQuiz = getQuiz(selectedCourseId, selectedQuizId);
+  const currentQuiz = selectedCourseId && selectedQuizId ? getQuiz(selectedCourseId, selectedQuizId) : null;
+
+  const handleCourseChange = (courseId) => {
+    setSelectedCourseId(courseId);
+    setSelectedQuizId('');
+  };
 
   return (
     <div className="min-h-screen bg-slate-50">
@@ -54,7 +66,7 @@ function App() {
         <CourseSelector
           courses={courses}
           selectedCourseId={selectedCourseId}
-          onCourseChange={setSelectedCourseId}
+          onCourseChange={handleCourseChange}
           selectedQuizId={selectedQuizId}
           onQuizChange={setSelectedQuizId}
         />

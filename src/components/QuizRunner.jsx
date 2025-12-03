@@ -54,7 +54,7 @@ function QuizRunner({ quiz, courseName }) {
   };
 
   if (!quiz) {
-    return <div className="text-sm text-slate-600">Select a quiz to begin.</div>;
+    return null;
   }
 
   return (

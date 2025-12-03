@@ -21,6 +21,7 @@ function CourseSelector({
           onChange={(e) => onCourseChange(e.target.value)}
           className="mt-1 w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-blue-500 focus:outline-none"
         >
+          <option value="">Select a course</option>
           {courses.map((course) => (
             <option key={course.id} value={course.id}>
               {course.name}
@@ -37,6 +38,7 @@ function CourseSelector({
           className="mt-1 w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-blue-500 focus:outline-none"
           disabled={!selectedCourse}
         >
+          <option value="">{selectedCourse ? 'Select a quiz' : 'Select a course first'}</option>
           {selectedCourse?.quizzes.map((quiz) => (
             <option key={quiz.id} value={quiz.id}>
               {quiz.title}
