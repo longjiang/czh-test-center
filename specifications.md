@@ -15,9 +15,11 @@ The goal is to build an interactive quiz and exam interface for **Chinese Zero t
 ### Core Functionality and Content
 
 * The system must support **multiple courses** (such as the Introduction to Chinese course developed in late 2025), each containing **multiple quizzes and exams**.
-* **Question Types:** The system must support **multiple choice** questions and other question formats.
-* **Section Headings:** Quizzes can include **heading blocks** (metadata entries, not questions) to separate sections; they should render inline without affecting numbering or scoring.
-* **Data Structure:** Quiz and exam questions must be saved as **JSON files** and loaded dynamically by the application. Headings are represented with `type: "heading"` and a `label`.
+* **Question Types:** The system must support **multiple choice** questions and other question formats, including dropdown-based choices for media-set questions.
+* **Section Headings:** Quizzes can include **heading blocks** (metadata entries, not questions) to separate sections; they render inline without affecting numbering or scoring, and support multiple heading levels.
+* **Media Sets:** Quizzes can include **image-set** blocks (reference only) to avoid repeating images per question; related questions choose from a dropdown of keyed options.
+* **Data Structure:** Quiz and exam questions must be saved as **JSON files** and loaded dynamically by the application. Headings are represented with `type: "heading"` (with optional `level`), image references with `type: "image-set"`, and dropdown-enabled questions with `displayAs: "dropdown"`.
+* **Scoring:** Each quiz can define an optional `fullScore`; if present, scores display against that value (questions can exceed it, yielding bonus points). Default `fullScore` is the count of graded questions.
 
 ---
 
@@ -31,7 +33,7 @@ The goal is to build an interactive quiz and exam interface for **Chinese Zero t
 3.  **In-Progress:**
     * Each quiz/exam has a **time limit** (commonly 1 minute per question unless otherwise specified).
     * Students must see a **progress countdown bar and timer** while completing the questions.
-    * Each rendered question displays a clear **ordinal number**; headings show their label and do not consume a number.
+    * Each rendered question displays a clear **ordinal number**; headings show their label and do not consume a number. Ordinals can reset at section boundaries when configured.
 4.  **Submission and Feedback:**
     * After submitting, students must see the **correct answers** for all questions.
     * The interface must clearly show **which questions were answered incorrectly** so students know where they lost points.
