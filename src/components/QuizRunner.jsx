@@ -123,13 +123,13 @@ function QuizRunner({ quiz, courseName }) {
                       {item.options.map((option) => (
                         <div
                           key={option.key}
-                          className="flex flex-col items-center gap-2 rounded border border-slate-200 bg-slate-50 p-3"
+                          className="flex flex-col items-center gap-2 p-2"
                         >
-                          <div className="flex items-center justify-center h-24 w-full bg-white border border-slate-200 rounded">
+                          <div className="flex items-center justify-center w-full bg-white rounded">
                             <img
                               src={option.image}
                               alt={option.alt ?? option.label ?? `Image ${option.key}`}
-                              className="h-24 object-contain"
+                              className="w-full h-auto rounded shadow"
                             />
                           </div>
                           <div className="text-xs font-semibold text-slate-700 uppercase tracking-wide">
