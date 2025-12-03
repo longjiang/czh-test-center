@@ -22,7 +22,6 @@ function QuestionCard({
       <div className="flex items-start gap-2">
         <div className="flex items-center gap-2">
           <span className="badge">{ordinal ? `#${ordinal}` : 'Question'}</span>
-          <span className="badge">{question.type === 'multiple-choice' ? 'Multiple Choice' : 'Question'}</span>
         </div>
         <div className="flex flex-col gap-1">
           <p className="text-slate-900 text-sm leading-tight font-normal">{question.prompt}</p>
