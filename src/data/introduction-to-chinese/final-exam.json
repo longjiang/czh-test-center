@@ -4,6 +4,7 @@
   "timeLimitSeconds": 1200,
   "pointsPerQuestion": 1,
   "resetOrdinalAt": "fe-q21",
+  "fullScore": 30,
   "questions": [
     {
       "id": "fe-h1",

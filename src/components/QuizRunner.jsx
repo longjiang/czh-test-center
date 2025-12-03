@@ -10,6 +10,7 @@ function QuizRunner({ quiz, courseName }) {
   const [submitted, setSubmitted] = useState(false);
   const questionCount =
     quiz?.questions?.filter((item) => item.type !== 'heading' && item.type !== 'image-set').length ?? 0;
+  const fullScore = quiz?.fullScore ?? questionCount;
   const resetIndexAt = quiz?.resetOrdinalAt ?? null;
 
   useEffect(() => {
@@ -174,8 +175,11 @@ function QuizRunner({ quiz, courseName }) {
           {submitted && (
             <div className="text-sm text-slate-700 flex flex-col gap-1">
               <span>
-                Score: {correctCount} / {questionCount}
+                Score: {Math.min(correctCount, fullScore)} / {fullScore}
               </span>
+              {correctCount > fullScore && (
+                <span className="text-xs text-slate-600">Bonus: +{correctCount - fullScore} above full score</span>
+              )}
               <span className="text-slate-600">
                 Review answers below — correct options are highlighted in green, and any mistakes in red.
               </span>
