@@ -21,7 +21,9 @@ function QuestionCard({
     <div className={`card space-y-3 ${cardTone}`}>
       <div className="flex items-start gap-2">
         <div className="flex items-center gap-2">
-          <span className="badge">{ordinal ? `#${ordinal}` : 'Question'}</span>
+          <span className="text-sm font-semibold text-slate-900">
+            {ordinal ? `${ordinal}.` : 'Question'}
+          </span>
         </div>
         <div className="flex flex-col gap-1">
           <p className="text-slate-900 text-sm leading-tight font-normal">{question.prompt}</p>
