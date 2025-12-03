@@ -283,6 +283,12 @@
       "level": 2
     },
     {
+      "id": "fe-h6-note",
+      "type": "heading",
+      "label": "Note: This part is taken from actual past HSK 1 tests and can be very challenging for you. Although there are 20 questions, each worth 1 point, this section is graded out of 10 points—i.e. you get 10 bonus points.",
+      "level": 4
+    },
+    {
       "id": "fe-h7",
       "type": "heading",
       "label": "I. Listening",
