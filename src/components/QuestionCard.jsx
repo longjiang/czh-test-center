@@ -38,43 +38,61 @@ function QuestionCard({
         )}
       </div>
       <div className="space-y-2">
-        {question.options.map((option) => (
-          <label
-            key={option.key}
-            className={`flex items-center gap-3 rounded-lg border p-3 cursor-pointer transition ${
-              submitted
-                ? option.key === question.answer
-                  ? 'border-green-400 bg-green-50'
-                  : selectedOption === option.key
-                    ? 'border-rose-300 bg-rose-50'
-                    : 'border-slate-200'
-                : selectedOption === option.key
-                  ? 'border-blue-400 bg-blue-50'
-                  : 'border-slate-200 hover:border-blue-200'
-            } ${disabled ? 'opacity-70 cursor-not-allowed' : ''}`}
+        {question.displayAs === 'dropdown' ? (
+          <select
+            className="w-full rounded border border-slate-200 bg-white p-3 text-sm text-slate-800"
+            value={selectedOption ?? ''}
+            onChange={(e) => onSelect(e.target.value)}
+            disabled={disabled}
           >
-            <input
-              type="radio"
-              className="h-4 w-4 text-blue-600"
-              name={question.id}
-              value={option.key}
-              checked={selectedOption === option.key}
-              onChange={() => onSelect(option.key)}
-              disabled={disabled}
-            />
-            <span className="text-sm text-slate-800 flex items-center gap-3">
-              <strong className="mr-1">{option.key}.</strong>
-              {option.image && (
-                <img
-                  src={option.image}
-                  alt={option.alt ?? option.label ?? `Option ${option.key}`}
-                  className="h-16 w-16 rounded border border-slate-200 object-cover bg-white"
-                />
-              )}
-              <span>{option.label}</span>
-            </span>
-          </label>
-        ))}
+            <option value="" disabled>
+              Select an option
+            </option>
+            {question.options.map((option) => (
+              <option key={option.key} value={option.key}>
+                {option.key}. {option.label}
+              </option>
+            ))}
+          </select>
+        ) : (
+          question.options.map((option) => (
+            <label
+              key={option.key}
+              className={`flex items-center gap-3 rounded-lg border p-3 cursor-pointer transition ${
+                submitted
+                  ? option.key === question.answer
+                    ? 'border-green-400 bg-green-50'
+                    : selectedOption === option.key
+                      ? 'border-rose-300 bg-rose-50'
+                      : 'border-slate-200'
+                  : selectedOption === option.key
+                    ? 'border-blue-400 bg-blue-50'
+                    : 'border-slate-200 hover:border-blue-200'
+              } ${disabled ? 'opacity-70 cursor-not-allowed' : ''}`}
+            >
+              <input
+                type="radio"
+                className="h-4 w-4 text-blue-600"
+                name={question.id}
+                value={option.key}
+                checked={selectedOption === option.key}
+                onChange={() => onSelect(option.key)}
+                disabled={disabled}
+              />
+              <span className="text-sm text-slate-800 flex items-center gap-3">
+                <strong className="mr-1">{option.key}.</strong>
+                {option.image && (
+                  <img
+                    src={option.image}
+                    alt={option.alt ?? option.label ?? `Option ${option.key}`}
+                    className="h-16 w-16 rounded border border-slate-200 object-cover bg-white"
+                  />
+                )}
+                <span>{option.label}</span>
+              </span>
+            </label>
+          ))
+        )}
       </div>
       {submitted && (
         <div

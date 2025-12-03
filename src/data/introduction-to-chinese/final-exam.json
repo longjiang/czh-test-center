@@ -310,6 +310,7 @@
       "prompt": "Select the matching picture for the audio.",
       "audioSrc": "/assets/final-exam/audio/再见.mp3",
       "type": "multiple-choice",
+      "displayAs": "dropdown",
       "options": [
         { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/再见.jpeg" },
         { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/吃米饭.jpeg" },
@@ -324,6 +325,7 @@
       "prompt": "Select the matching picture for the audio.",
       "audioSrc": "/assets/final-exam/audio/吃东西.mp3",
       "type": "multiple-choice",
+      "displayAs": "dropdown",
       "options": [
         { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/再见.jpeg" },
         { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/吃米饭.jpeg" },
@@ -338,6 +340,7 @@
       "prompt": "Select the matching picture for the audio.",
       "audioSrc": "/assets/final-exam/audio/吃米饭.mp3",
       "type": "multiple-choice",
+      "displayAs": "dropdown",
       "options": [
         { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/再见.jpeg" },
         { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/吃米饭.jpeg" },
@@ -352,6 +355,7 @@
       "prompt": "Select the matching picture for the audio.",
       "audioSrc": "/assets/final-exam/audio/我和儿子.mp3",
       "type": "multiple-choice",
+      "displayAs": "dropdown",
       "options": [
         { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/再见.jpeg" },
         { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/吃米饭.jpeg" },
@@ -366,6 +370,7 @@
       "prompt": "Select the matching picture for the audio.",
       "audioSrc": "/assets/final-exam/audio/请喝茶.mp3",
       "type": "multiple-choice",
+      "displayAs": "dropdown",
       "options": [
         { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/再见.jpeg" },
         { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/吃米饭.jpeg" },
@@ -398,6 +403,7 @@
       "prompt": "Select the matching picture for the audio.",
       "audioSrc": "/assets/final-exam/audio/喂？是王先生吗？.mp3",
       "type": "multiple-choice",
+      "displayAs": "dropdown",
       "options": [
         { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/喂？是王先生吗？.jpeg" },
         { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/男：你好！女：你好！很高兴认识你。.jpeg" },
@@ -412,6 +418,7 @@
       "prompt": "Select the matching picture for the audio.",
       "audioSrc": "/assets/final-exam/audio/下午我去商店，我想买一些水果。.mp3",
       "type": "multiple-choice",
+      "displayAs": "dropdown",
       "options": [
         { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/喂？是王先生吗？.jpeg" },
         { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/男：你好！女：你好！很高兴认识你。.jpeg" },
@@ -426,6 +433,7 @@
       "prompt": "Select the matching picture for the audio.",
       "audioSrc": "/assets/final-exam/audio/这是你的朋友吗？.mp3",
       "type": "multiple-choice",
+      "displayAs": "dropdown",
       "options": [
         { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/喂？是王先生吗？.jpeg" },
         { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/男：你好！女：你好！很高兴认识你。.jpeg" },
@@ -440,6 +448,7 @@
       "prompt": "Select the matching picture for the audio.",
       "audioSrc": "/assets/final-exam/audio/男：谢谢你们！女：不客气，再见！.mp3",
       "type": "multiple-choice",
+      "displayAs": "dropdown",
       "options": [
         { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/喂？是王先生吗？.jpeg" },
         { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/男：你好！女：你好！很高兴认识你。.jpeg" },
@@ -454,6 +463,7 @@
       "prompt": "Select the matching picture for the audio.",
       "audioSrc": "/assets/final-exam/audio/男：你好！女：你好！很高兴认识你。.mp3",
       "type": "multiple-choice",
+      "displayAs": "dropdown",
       "options": [
         { "key": "A", "label": "Image A", "image": "/assets/final-exam/images/喂？是王先生吗？.jpeg" },
         { "key": "B", "label": "Image B", "image": "/assets/final-exam/images/男：你好！女：你好！很高兴认识你。.jpeg" },
