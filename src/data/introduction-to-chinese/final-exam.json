@@ -17,7 +17,7 @@
     },
     {
       "id": "fe-q1",
-      "prompt": "Which “i” sounds different from the others? yi, si, xi, lia",
+      "prompt": "Which “i” sounds different from the others?",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "yi" },
@@ -29,7 +29,7 @@
     },
     {
       "id": "fe-q2",
-      "prompt": "Which “e” sounds different from the others? ke, mei, men, gei",
+      "prompt": "Which “e” sounds different from the others?",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "ke" },
@@ -41,7 +41,7 @@
     },
     {
       "id": "fe-q3",
-      "prompt": "Which “u” sounds different from the others? bu, qu, ku, du",
+      "prompt": "Which “u” sounds different from the others?",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "bu" },
@@ -58,7 +58,7 @@
     },
     {
       "id": "fe-q4",
-      "prompt": "Choose the one that is not in the same category as the others: Píjiǔ, shuǐ, chá, péngyǒu",
+      "prompt": "",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "Píjiǔ" },
@@ -70,7 +70,7 @@
     },
     {
       "id": "fe-q5",
-      "prompt": "Choose the one that is not in the same category as the others: Bà, āyí, gē, shuǐguǒ",
+      "prompt": "",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "Bà" },
@@ -82,7 +82,7 @@
     },
     {
       "id": "fe-q6",
-      "prompt": "Choose the one that is not in the same category as the others: Shuì, jīntiān, chǎojià, děng",
+      "prompt": "",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "Shuì" },
@@ -94,7 +94,7 @@
     },
     {
       "id": "fe-q7",
-      "prompt": "Choose the one that is not in the same category as the others: Xiǎo, hǎo, màn, kū",
+      "prompt": "",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "Xiǎo" },
@@ -111,7 +111,7 @@
     },
     {
       "id": "fe-q8",
-      "prompt": "Fill in the blank: Lái, hē ____.",
+      "prompt": "Lái, hē ____.",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "chá" },
@@ -123,7 +123,7 @@
     },
     {
       "id": "fe-q9",
-      "prompt": "Fill in the blank: Wǒmen qù _____ ba!",
+      "prompt": "Wǒmen qù _____ ba!",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "hē chá" },
@@ -135,7 +135,7 @@
     },
     {
       "id": "fe-q10",
-      "prompt": "Fill in the blank: Lái, wǒ ___ nǐ hē jiǔ.",
+      "prompt": "Lái, wǒ ___ nǐ hē jiǔ.",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "zuótiān" },
@@ -147,7 +147,7 @@
     },
     {
       "id": "fe-q11",
-      "prompt": "Fill in the blank: Zěnme, nǐ __ le?",
+      "prompt": "Zěnme, nǐ __ le?",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "píjiǔ le" },
@@ -160,11 +160,11 @@
     {
       "id": "fe-h4",
       "type": "heading",
-      "label": "Choose the correct response"
+      "label": "Choose the correct reply."
     },
     {
       "id": "fe-q12",
-      "prompt": "Choose the correct response: Děng wǒ yīxià.",
+      "prompt": "Děng wǒ yīxià.",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "Kuài diǎnr, kuài diǎnr!" },
@@ -176,7 +176,7 @@
     },
     {
       "id": "fe-q13",
-      "prompt": "Choose the correct response: Xiàbān le ma?",
+      "prompt": "Xiàbān le ma?",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "Hái méi." },
@@ -188,7 +188,7 @@
     },
     {
       "id": "fe-q14",
-      "prompt": "Choose the correct response: Nǐ zuótiān hē jiǔ le ma?",
+      "prompt": "Nǐ zuótiān hē jiǔ le ma?",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "Hē le." },
@@ -200,7 +200,7 @@
     },
     {
       "id": "fe-q15",
-      "prompt": "Choose the correct response: Nǐ yào zhè gè ma?",
+      "prompt": "Nǐ yào zhè gè ma?",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "Yào." },
@@ -217,7 +217,7 @@
     },
     {
       "id": "fe-q16",
-      "prompt": "Choose the correct translation: Nǐmen zuótiān wǎnshàng chǎojià le?",
+      "prompt": "Nǐmen zuótiān wǎnshàng chǎojià le?",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "Did you (all) argue last night?" },
@@ -229,7 +229,7 @@
     },
     {
       "id": "fe-q17",
-      "prompt": "Choose the correct translation: Xíng, wǒ qù.",
+      "prompt": "Xíng, wǒ qù.",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "Okay, I'll go." },
@@ -241,7 +241,7 @@
     },
     {
       "id": "fe-q18",
-      "prompt": "Choose the correct translation: Tā shì lǎo péngyǒu.",
+      "prompt": "Tā shì lǎo péngyǒu.",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "He/She is an old friend." },
@@ -253,7 +253,7 @@
     },
     {
       "id": "fe-q19",
-      "prompt": "Choose the correct translation: Bié hē jiǔ le!",
+      "prompt": "Bié hē jiǔ le!",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "Stop drinking alcohol!" },
@@ -265,7 +265,7 @@
     },
     {
       "id": "fe-q20",
-      "prompt": "Choose the correct translation: Wǒmen hē diǎn shuǐ ba.",
+      "prompt": "Wǒmen hē diǎn shuǐ ba.",
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "Let's drink some water." },
@@ -284,7 +284,7 @@
     {
       "id": "fe-h7",
       "type": "heading",
-      "label": "Listening",
+      "label": "I. Listening",
       "level": 3
     },
     {
@@ -307,7 +307,7 @@
     },
     {
       "id": "fe-q21",
-      "prompt": "Select the matching picture for the audio.",
+      "prompt": "",
       "audioSrc": "/assets/final-exam/audio/再见.mp3",
       "type": "multiple-choice",
       "displayAs": "dropdown",
@@ -322,7 +322,7 @@
     },
     {
       "id": "fe-q22",
-      "prompt": "Select the matching picture for the audio.",
+      "prompt": "",
       "audioSrc": "/assets/final-exam/audio/吃东西.mp3",
       "type": "multiple-choice",
       "displayAs": "dropdown",
@@ -337,7 +337,7 @@
     },
     {
       "id": "fe-q23",
-      "prompt": "Select the matching picture for the audio.",
+      "prompt": "",
       "audioSrc": "/assets/final-exam/audio/吃米饭.mp3",
       "type": "multiple-choice",
       "displayAs": "dropdown",
@@ -352,7 +352,7 @@
     },
     {
       "id": "fe-q24",
-      "prompt": "Select the matching picture for the audio.",
+      "prompt": "",
       "audioSrc": "/assets/final-exam/audio/我和儿子.mp3",
       "type": "multiple-choice",
       "displayAs": "dropdown",
@@ -367,7 +367,7 @@
     },
     {
       "id": "fe-q25",
-      "prompt": "Select the matching picture for the audio.",
+      "prompt": "",
       "audioSrc": "/assets/final-exam/audio/请喝茶.mp3",
       "type": "multiple-choice",
       "displayAs": "dropdown",
@@ -400,7 +400,7 @@
     },
     {
       "id": "fe-q26",
-      "prompt": "Select the matching picture for the audio.",
+      "prompt": "",
       "audioSrc": "/assets/final-exam/audio/喂？是王先生吗？.mp3",
       "type": "multiple-choice",
       "displayAs": "dropdown",
@@ -415,7 +415,7 @@
     },
     {
       "id": "fe-q27",
-      "prompt": "Select the matching picture for the audio.",
+      "prompt": "",
       "audioSrc": "/assets/final-exam/audio/下午我去商店，我想买一些水果。.mp3",
       "type": "multiple-choice",
       "displayAs": "dropdown",
@@ -430,7 +430,7 @@
     },
     {
       "id": "fe-q28",
-      "prompt": "Select the matching picture for the audio.",
+      "prompt": "",
       "audioSrc": "/assets/final-exam/audio/这是你的朋友吗？.mp3",
       "type": "multiple-choice",
       "displayAs": "dropdown",
@@ -445,7 +445,7 @@
     },
     {
       "id": "fe-q29",
-      "prompt": "Select the matching picture for the audio.",
+      "prompt": "",
       "audioSrc": "/assets/final-exam/audio/男：谢谢你们！女：不客气，再见！.mp3",
       "type": "multiple-choice",
       "displayAs": "dropdown",
@@ -460,7 +460,7 @@
     },
     {
       "id": "fe-q30",
-      "prompt": "Select the matching picture for the audio.",
+      "prompt": "",
       "audioSrc": "/assets/final-exam/audio/男：你好！女：你好！很高兴认识你。.mp3",
       "type": "multiple-choice",
       "displayAs": "dropdown",
