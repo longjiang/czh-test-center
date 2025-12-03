@@ -119,11 +119,11 @@ function QuizRunner({ quiz, courseName }) {
                       <div className="text-sm font-semibold text-slate-800">{item.label}</div>
                       <span className="badge">Reference</span>
                     </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-3">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5">
                       {item.options.map((option) => (
                         <div
                           key={option.key}
-                          className="flex flex-col items-center gap-2 p-2"
+                          className="flex flex-col items-center gap-1 p-1"
                         >
                           <div className="flex items-center justify-center w-full bg-white rounded aspect-square overflow-hidden">
                             <img
