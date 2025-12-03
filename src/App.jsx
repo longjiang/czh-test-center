@@ -47,16 +47,7 @@ function App() {
         <header className="flex items-start justify-between flex-wrap gap-4">
           <div>
             <p className="text-sm text-blue-700 font-semibold uppercase tracking-wide">Chinese Zero to Hero</p>
-            <h1 className="text-3xl font-bold text-slate-900">Quiz & Exam Center</h1>
-            <p className="text-sm text-slate-600 mt-1 max-w-2xl">
-              Select a course and quiz to begin. Content is loaded from JSON files per lesson; questions stay hidden until you start to keep the experience exam-like.
-            </p>
-          </div>
-          <div className="text-xs text-slate-600 bg-white border border-slate-200 shadow-sm rounded-lg px-3 py-2">
-            <div className="font-semibold text-slate-800">Specs</div>
-            <div>React + Tailwind</div>
-            <div>JSON-backed quizzes</div>
-            <div>Timer & progress bar</div>
+            <h1 className="text-3xl font-bold text-slate-900">Test Center</h1>
           </div>
         </header>
 

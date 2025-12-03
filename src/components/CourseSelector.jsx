@@ -11,6 +11,9 @@ function CourseSelector({
 
   return (
     <div className="card space-y-3 mb-4">
+      <p className="text-sm text-slate-600 mt-1 max-w-2xl">
+        Select a course and quiz to begin.
+      </p>
       <div>
         <div className="text-sm font-semibold text-slate-700">Course</div>
         <select

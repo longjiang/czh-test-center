@@ -68,16 +68,9 @@ function QuizRunner({ quiz, courseName }) {
               {questionCount} questions · Time limit {formatSeconds(quiz.timeLimitSeconds)}
             </p>
           </div>
-          <div className="flex items-center gap-2 text-sm text-slate-600">
-            <span className="badge">JSON-backed</span>
-            <span className="badge">Multiple Choice</span>
-          </div>
         </div>
         {!hasStarted ? (
           <div className="flex items-center justify-between flex-wrap gap-3">
-            <p className="text-sm text-slate-700">
-              Questions stay hidden until you click start. Your timer begins immediately after starting.
-            </p>
             <button className="button-primary" onClick={() => setHasStarted(true)}>
               Start Quiz
             </button>
@@ -185,12 +178,6 @@ function QuizRunner({ quiz, courseName }) {
               </span>
             </div>
           )}
-        </div>
-      )}
-
-      {!hasStarted && (
-        <div className="card text-sm text-slate-700 bg-slate-50 border-dashed">
-          Questions and submit controls appear after you click Start Quiz.
         </div>
       )}
     </div>
