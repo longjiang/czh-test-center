@@ -84,7 +84,9 @@ function QuizRunner({ quiz, courseName }) {
       </header>
 
       {hasStarted && (
-        <ProgressBar remainingSeconds={remainingSeconds} totalSeconds={quiz.timeLimitSeconds} />
+        <div className="sticky top-0 z-10 bg-slate-50/80 backdrop-blur">
+          <ProgressBar remainingSeconds={remainingSeconds} totalSeconds={quiz.timeLimitSeconds} />
+        </div>
       )}
 
       {hasStarted && (

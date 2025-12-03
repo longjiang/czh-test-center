@@ -32,7 +32,7 @@ The goal is to build an interactive quiz and exam interface for **Chinese Zero t
     * Questions and the **submit buttons** should remain **hidden** until the student clicks **"Start Quiz."**
 3.  **In-Progress:**
     * Each quiz/exam has a **time limit** (commonly 1 minute per question unless otherwise specified).
-    * Students must see a **progress countdown bar and timer** while completing the questions.
+    * Students must see a **progress countdown bar and timer** while completing the questions. The progress bar should remain visible at the top of the viewport as students scroll.
     * Each rendered question displays a clear **ordinal number**; headings show their label and do not consume a number. Ordinals can reset at section boundaries when configured.
 4.  **Submission and Feedback:**
     * After submitting, students must see the **correct answers** for all questions.
