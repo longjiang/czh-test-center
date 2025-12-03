@@ -7,6 +7,19 @@ function App() {
   const [selectedCourseId, setSelectedCourseId] = useState(courses[0]?.id ?? '');
   const [selectedQuizId, setSelectedQuizId] = useState(courses[0]?.quizzes[0]?.id ?? '');
 
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const courseParam = params.get('course');
+    const quizParam = params.get('quiz');
+
+    const courseFromUrl = courses.find((course) => course.id === courseParam);
+    if (courseFromUrl) {
+      setSelectedCourseId(courseFromUrl.id);
+      const quizFromUrl = courseFromUrl.quizzes.find((quiz) => quiz.id === quizParam);
+      setSelectedQuizId(quizFromUrl?.id ?? courseFromUrl.quizzes[0]?.id ?? '');
+    }
+  }, []);
+
   const selectedCourse = useMemo(
     () => courses.find((course) => course.id === selectedCourseId),
     [selectedCourseId],
@@ -17,6 +30,14 @@ function App() {
       setSelectedQuizId(selectedCourse.quizzes[0]?.id ?? '');
     }
   }, [selectedCourse, selectedQuizId]);
+
+  useEffect(() => {
+    if (!selectedCourseId || !selectedQuizId) return;
+    const url = new URL(window.location.href);
+    url.searchParams.set('course', selectedCourseId);
+    url.searchParams.set('quiz', selectedQuizId);
+    window.history.replaceState({}, '', url);
+  }, [selectedCourseId, selectedQuizId]);
 
   const currentQuiz = getQuiz(selectedCourseId, selectedQuizId);
 
