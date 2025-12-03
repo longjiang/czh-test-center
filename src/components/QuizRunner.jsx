@@ -175,9 +175,6 @@ function QuizRunner({ quiz, courseName }) {
               {correctCount > fullScore && (
                 <span className="text-xs text-slate-600">Bonus: +{correctCount - fullScore} above full score</span>
               )}
-              <span className="text-slate-600">
-                Review answers below — correct options are highlighted in green, and any mistakes in red.
-              </span>
             </div>
           )}
         </div>

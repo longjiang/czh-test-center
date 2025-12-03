@@ -32,10 +32,10 @@
       "prompt": "What is the common reply to \u201cxi\u00e8 xi\u00e8\u201d?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "M\u00e9i gu\u0101n x\u00ec (It doesn't matter)" },
-        { "key": "B", "label": "Z\u00e0i ji\u00e0n (Goodbye)" },
+        { "key": "A", "label": "Kuài diǎnr" },
+        { "key": "B", "label": "Z\u00e0i ji\u00e0n" },
         { "key": "C", "label": "B\u00f9 k\u00e8 q\u00ec" },
-        { "key": "D", "label": "N\u01d0 h\u01ceo (Hello)" }
+        { "key": "D", "label": "N\u01d0 h\u01ceo" }
       ],
       "answer": "C"
     },
@@ -69,7 +69,7 @@
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "It sounds like [oo-ee]" },
-        { "key": "B", "label": "It sounds like [way]" },
+        { "key": "B", "label": "It sounds like [yu-ee]" },
         { "key": "C", "label": "It sounds like [wei]" },
         { "key": "D", "label": "It sounds like [oo-eye]" }
       ],
@@ -93,7 +93,7 @@
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "It sounds like [g]" },
-        { "key": "B", "label": "It sounds like [ts]" },
+        { "key": "B", "label": "It sounds like [j]" },
         { "key": "C", "label": "It sounds like [sh]" },
         { "key": "D", "label": "It sounds like [ch]" }
       ],

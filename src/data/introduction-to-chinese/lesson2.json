@@ -21,9 +21,9 @@
       "type": "multiple-choice",
       "options": [
         { "key": "A", "label": "Hello again" },
-        { "key": "B", "label": "See you next time" },
+        { "key": "B", "label": "Next time" },
         { "key": "C", "label": "Goodbye" },
-        { "key": "D", "label": "See you soon" }
+        { "key": "D", "label": "Hello" }
       ],
       "answer": "C"
     },
@@ -34,7 +34,7 @@
       "options": [
         { "key": "A", "label": "See you next time" },
         { "key": "B", "label": "Next week" },
-        { "key": "C", "label": "See you later" },
+        { "key": "C", "label": "Next time will be good" },
         { "key": "D", "label": "Until tomorrow" }
       ],
       "answer": "A"
