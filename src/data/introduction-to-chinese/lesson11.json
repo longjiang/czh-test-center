@@ -5,13 +5,25 @@
   "questions": [
     {
       "id": "l11-q1",
-      "prompt": "Give the correct meaning of: q\u00f9",
+      "prompt": "Give the correct meaning of: qù",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "To come" },
-        { "key": "B", "label": "To wait" },
-        { "key": "C", "label": "To go" },
-        { "key": "D", "label": "To walk" }
+        {
+          "key": "A",
+          "label": "To come"
+        },
+        {
+          "key": "B",
+          "label": "To wait"
+        },
+        {
+          "key": "C",
+          "label": "To go"
+        },
+        {
+          "key": "D",
+          "label": "To walk"
+        }
       ],
       "answer": "C"
     },
@@ -20,34 +32,70 @@
       "prompt": "What is the Chinese word for 'studio' or 'workspace'?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "B\u00e0ng\u014dngsh\u00ec (Office)" },
-        { "key": "B", "label": "Xu\u00e9xi\u00e0o (School)" },
-        { "key": "C", "label": "G\u014dngzu\u00f2sh\u00ec" },
-        { "key": "D", "label": "Y\u00f3ul\u00e8ch\u01ceng (Amusement park)" }
+        {
+          "key": "A",
+          "label": "nán péngyou"
+        },
+        {
+          "key": "B",
+          "label": "zuótiān"
+        },
+        {
+          "key": "C",
+          "label": "gōngzuòshì"
+        },
+        {
+          "key": "D",
+          "label": "yóulèchǎng"
+        }
       ],
       "answer": "C"
     },
     {
       "id": "l11-q3",
-      "prompt": "Give the correct meaning of: sh\u00e0ngb\u0101n",
+      "prompt": "Give the correct meaning of: shàngbān",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "To get off work" },
-        { "key": "B", "label": "To go to school" },
-        { "key": "C", "label": "To go to work" },
-        { "key": "D", "label": "To start working" }
+        {
+          "key": "A",
+          "label": "To get off work"
+        },
+        {
+          "key": "B",
+          "label": "To eat meal"
+        },
+        {
+          "key": "C",
+          "label": "To go to work"
+        },
+        {
+          "key": "D",
+          "label": "To sleep"
+        }
       ],
       "answer": "C"
     },
     {
       "id": "l11-q4",
-      "prompt": "Give the correct meaning of: xi\u00e0b\u0101n",
+      "prompt": "Give the correct meaning of: xiàbān",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "To start work" },
-        { "key": "B", "label": "To eat lunch" },
-        { "key": "C", "label": "To get off work" },
-        { "key": "D", "label": "To go home" }
+        {
+          "key": "A",
+          "label": "To treat"
+        },
+        {
+          "key": "B",
+          "label": "To accompany"
+        },
+        {
+          "key": "C",
+          "label": "To get off work"
+        },
+        {
+          "key": "D",
+          "label": "To come"
+        }
       ],
       "answer": "C"
     },
@@ -56,22 +104,46 @@
       "prompt": "What is the phrase for 'dinner'?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Z\u01ceof\u00e0n (Breakfast)" },
-        { "key": "B", "label": "W\u01d4f\u00e0n (Lunch)" },
-        { "key": "C", "label": "W\u01cenf\u00e0n" },
-        { "key": "D", "label": "Ti\u0101nf\u00e0n (Heavenly meal)" }
+        {
+          "key": "A",
+          "label": "Cháfàn"
+        },
+        {
+          "key": "B",
+          "label": "Zuótiān"
+        },
+        {
+          "key": "C",
+          "label": "Wǎnfàn"
+        },
+        {
+          "key": "D",
+          "label": "Píjiǔ"
+        }
       ],
       "answer": "C"
     },
     {
       "id": "l11-q6",
-      "prompt": "What is the verb for \u201cto be\u201d that can also mean \u201cyes?\u201d",
+      "prompt": "What is the verb for “to be” that can also mean “yes?”",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Y\u01d2u (To have)" },
-        { "key": "B", "label": "B\u00f9 (Not)" },
-        { "key": "C", "label": "Sh\u00ec" },
-        { "key": "D", "label": "Z\u00e0i (To be at)" }
+        {
+          "key": "A",
+          "label": "Yǒu"
+        },
+        {
+          "key": "B",
+          "label": "Bù"
+        },
+        {
+          "key": "C",
+          "label": "Shì"
+        },
+        {
+          "key": "D",
+          "label": "Zài"
+        }
       ],
       "answer": "C"
     },
@@ -80,10 +152,22 @@
       "prompt": "What is the Chinese word for 'yesterday'?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "J\u012bnti\u0101n (Today)" },
-        { "key": "B", "label": "M\u00edngti\u0101n (Tomorrow)" },
-        { "key": "C", "label": "Zu\u00f3ti\u0101n" },
-        { "key": "D", "label": "H\u00f2uti\u0101n (The day after tomorrow)" }
+        {
+          "key": "A",
+          "label": "Jīntiān"
+        },
+        {
+          "key": "B",
+          "label": "Zánmen"
+        },
+        {
+          "key": "C",
+          "label": "Zuótiān"
+        },
+        {
+          "key": "D",
+          "label": "Wǎnshàng"
+        }
       ],
       "answer": "C"
     },
@@ -92,10 +176,22 @@
       "prompt": "What is the Chinese word for 'evening'?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Z\u01ceosh\u00e0ng (Morning)" },
-        { "key": "B", "label": "Zh\u014dngw\u01d4 (Noon)" },
-        { "key": "C", "label": "W\u01censh\u00e0ng" },
-        { "key": "D", "label": "Xi\u00e0w\u01d4 (Afternoon)" }
+        {
+          "key": "A",
+          "label": "Wǎnfàn"
+        },
+        {
+          "key": "B",
+          "label": "Jīntiān"
+        },
+        {
+          "key": "C",
+          "label": "Wǎnshàng"
+        },
+        {
+          "key": "D",
+          "label": "Xiàbān"
+        }
       ],
       "answer": "C"
     },
@@ -104,10 +200,22 @@
       "prompt": "What is the structure used to ask for confirmation of a statement?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "[Statement] + ma (Yes/No question)" },
-        { "key": "B", "label": "[Statement] + ba (Suggestion)" },
-        { "key": "C", "label": "[Statement] + a" },
-        { "key": "D", "label": "[Statement] + ne (Follow-up)" }
+        {
+          "key": "A",
+          "label": "[Statement] + xia?"
+        },
+        {
+          "key": "B",
+          "label": "[Statement] + shi?"
+        },
+        {
+          "key": "C",
+          "label": "[Statement] + a?"
+        },
+        {
+          "key": "D",
+          "label": "[Statement] + ne?"
+        }
       ],
       "answer": "C"
     },
@@ -116,10 +224,22 @@
       "prompt": "Which of the following is not an answer in the affirmative?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Sh\u00ec (To be / Yes)" },
-        { "key": "B", "label": "Du\u00ec (Correct / Right)" },
-        { "key": "C", "label": "Z\u01d2u (To go)" },
-        { "key": "D", "label": "\u0113n (Okay / Yeah)" }
+        {
+          "key": "A",
+          "label": "shì"
+        },
+        {
+          "key": "B",
+          "label": "duì"
+        },
+        {
+          "key": "C",
+          "label": "bié"
+        },
+        {
+          "key": "D",
+          "label": "ēn"
+        }
       ],
       "answer": "C"
     }

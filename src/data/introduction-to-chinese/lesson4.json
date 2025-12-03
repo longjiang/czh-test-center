@@ -5,97 +5,193 @@
   "questions": [
     {
       "id": "l4-q1",
-      "prompt": "Give the correct meaning of: xi\u00e8 xi\u00e8",
+      "prompt": "Give the correct meaning of: xiè xiè",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Hello" },
-        { "key": "B", "label": "Goodbye" },
-        { "key": "C", "label": "Excuse me" },
-        { "key": "D", "label": "Thank you" }
+        {
+          "key": "A",
+          "label": "Hello"
+        },
+        {
+          "key": "B",
+          "label": "Goodbye"
+        },
+        {
+          "key": "C",
+          "label": "Excuse me"
+        },
+        {
+          "key": "D",
+          "label": "Thank you"
+        }
       ],
       "answer": "D"
     },
     {
       "id": "l4-q2",
-      "prompt": "Give the correct meaning of: k\u00e8 q\u00ec",
+      "prompt": "Give the correct meaning of: kè qì",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "To be very hungry" },
-        { "key": "B", "label": "To be overly polite" },
-        { "key": "C", "label": "To be generous" },
-        { "key": "D", "label": "To be quick" }
+        {
+          "key": "A",
+          "label": "To be very hungry"
+        },
+        {
+          "key": "B",
+          "label": "To be overly polite"
+        },
+        {
+          "key": "C",
+          "label": "To be generous"
+        },
+        {
+          "key": "D",
+          "label": "To be quick"
+        }
       ],
       "answer": "B"
     },
     {
       "id": "l4-q3",
-      "prompt": "What is the common reply to \u201cxi\u00e8 xi\u00e8\u201d?",
+      "prompt": "What is the common reply to “xiè xiè”?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Kuài diǎnr" },
-        { "key": "B", "label": "Z\u00e0i ji\u00e0n" },
-        { "key": "C", "label": "B\u00f9 k\u00e8 q\u00ec" },
-        { "key": "D", "label": "N\u01d0 h\u01ceo" }
+        {
+          "key": "A",
+          "label": "Kuài diǎnr"
+        },
+        {
+          "key": "B",
+          "label": "Zài jiàn"
+        },
+        {
+          "key": "C",
+          "label": "Bù kè qì"
+        },
+        {
+          "key": "D",
+          "label": "Nǐ hǎo"
+        }
       ],
       "answer": "C"
     },
     {
       "id": "l4-q4",
-      "prompt": "Give the correct meaning of: l\u01ceo p\u00e9ng y\u01d2u",
+      "prompt": "Give the correct meaning of: lǎo péng yǒu",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Young acquaintance" },
-        { "key": "B", "label": "Old friend" },
-        { "key": "C", "label": "New classmate" },
-        { "key": "D", "label": "Close relative" }
+        {
+          "key": "A",
+          "label": "Young acquaintance"
+        },
+        {
+          "key": "B",
+          "label": "Old friend"
+        },
+        {
+          "key": "C",
+          "label": "New classmate"
+        },
+        {
+          "key": "D",
+          "label": "Close relative"
+        }
       ],
       "answer": "B"
     },
     {
       "id": "l4-q5",
-      "prompt": "What does \u201ca\u201d express in \u201cxi\u00e8 xi\u00e8 a\u201d?",
+      "prompt": "What does “a” express in “xiè xiè a”?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "It makes the statement a question" },
-        { "key": "B", "label": "It emphasizes urgency" },
-        { "key": "C", "label": "It shows displeasure" },
-        { "key": "D", "label": "It softens the tone" }
+        {
+          "key": "A",
+          "label": "It makes the statement a question"
+        },
+        {
+          "key": "B",
+          "label": "It emphasizes urgency"
+        },
+        {
+          "key": "C",
+          "label": "It shows displeasure"
+        },
+        {
+          "key": "D",
+          "label": "It softens the tone"
+        }
       ],
       "answer": "D"
     },
     {
       "id": "l4-q6",
-      "prompt": "How is \u201cui\u201d pronounced?",
+      "prompt": "How is “ui” pronounced?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "It sounds like [oo-ee]" },
-        { "key": "B", "label": "It sounds like [yu-ee]" },
-        { "key": "C", "label": "It sounds like [wei]" },
-        { "key": "D", "label": "It sounds like [oo-eye]" }
+        {
+          "key": "A",
+          "label": "It sounds like [oo-ee]"
+        },
+        {
+          "key": "B",
+          "label": "It sounds like [yu-ee]"
+        },
+        {
+          "key": "C",
+          "label": "It sounds like [wei]"
+        },
+        {
+          "key": "D",
+          "label": "It sounds like [oo-eye]"
+        }
       ],
       "answer": "C"
     },
     {
       "id": "l4-q7",
-      "prompt": "How is \u201cke\u201d pronounced?",
+      "prompt": "How is “ke” pronounced?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "It sounds like [kee]" },
-        { "key": "B", "label": "It sounds like [kay]" },
-        { "key": "C", "label": "It sounds like [kuh]" },
-        { "key": "D", "label": "It sounds like [keh]" }
+        {
+          "key": "A",
+          "label": "It sounds like [kee]"
+        },
+        {
+          "key": "B",
+          "label": "It sounds like [kay]"
+        },
+        {
+          "key": "C",
+          "label": "It sounds like [kuh]"
+        },
+        {
+          "key": "D",
+          "label": "It sounds like [keh]"
+        }
       ],
       "answer": "C"
     },
     {
       "id": "l4-q8",
-      "prompt": "How is \u201cq\u201d pronounced?",
+      "prompt": "How is “q” pronounced?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "It sounds like [g]" },
-        { "key": "B", "label": "It sounds like [j]" },
-        { "key": "C", "label": "It sounds like [sh]" },
-        { "key": "D", "label": "It sounds like [ch]" }
+        {
+          "key": "A",
+          "label": "It sounds like [g]"
+        },
+        {
+          "key": "B",
+          "label": "It sounds like [j]"
+        },
+        {
+          "key": "C",
+          "label": "It sounds like [sh]"
+        },
+        {
+          "key": "D",
+          "label": "It sounds like [ch]"
+        }
       ],
       "answer": "D"
     }

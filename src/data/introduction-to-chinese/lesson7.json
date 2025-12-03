@@ -5,13 +5,25 @@
   "questions": [
     {
       "id": "l7-q1",
-      "prompt": "Give the correct meaning of: z\u01d2u",
+      "prompt": "Give the correct meaning of: zǒu",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "To stop" },
-        { "key": "B", "label": "To run" },
-        { "key": "C", "label": "To walk, go" },
-        { "key": "D", "label": "To drive" }
+        {
+          "key": "A",
+          "label": "To stop"
+        },
+        {
+          "key": "B",
+          "label": "To run"
+        },
+        {
+          "key": "C",
+          "label": "To go"
+        },
+        {
+          "key": "D",
+          "label": "To drive"
+        }
       ],
       "answer": "C"
     },
@@ -20,10 +32,22 @@
       "prompt": "What particle is used when making a suggestion (e.g., 'Let's go')?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Ma (question particle)" },
-        { "key": "B", "label": "Ne (follow-up question particle)" },
-        { "key": "C", "label": "Ba" },
-        { "key": "D", "label": "Le (change of state particle)" }
+        {
+          "key": "A",
+          "label": "ma"
+        },
+        {
+          "key": "B",
+          "label": "ne"
+        },
+        {
+          "key": "C",
+          "label": "ba"
+        },
+        {
+          "key": "D",
+          "label": "le"
+        }
       ],
       "answer": "C"
     },
@@ -32,22 +56,46 @@
       "prompt": "What is the Chinese word for 'amusement park'?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "G\u014dngyu\u00e1n (Public park)" },
-        { "key": "B", "label": "B\u00f3w\u00f9gu\u01ce (Museum)" },
-        { "key": "C", "label": "Y\u00f3ul\u00e8ch\u01ceng" },
-        { "key": "D", "label": "Gu\u01cengch\u01ceng (Square)" }
+        {
+          "key": "A",
+          "label": "gōngyuán"
+        },
+        {
+          "key": "B",
+          "label": "péngyǒu"
+        },
+        {
+          "key": "C",
+          "label": "yóulèchǎng"
+        },
+        {
+          "key": "D",
+          "label": "chīfàn"
+        }
       ],
       "answer": "C"
     },
     {
       "id": "l7-q4",
-      "prompt": "Give the correct meaning of: d\u011bng",
+      "prompt": "Give the correct meaning of: děng",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "To arrive" },
-        { "key": "B", "label": "To hurry" },
-        { "key": "C", "label": "To wait" },
-        { "key": "D", "label": "To leave" }
+        {
+          "key": "A",
+          "label": "To arrive"
+        },
+        {
+          "key": "B",
+          "label": "To hurry"
+        },
+        {
+          "key": "C",
+          "label": "To wait"
+        },
+        {
+          "key": "D",
+          "label": "To leave"
+        }
       ],
       "answer": "C"
     },
@@ -56,10 +104,22 @@
       "prompt": "What structure do you use to ask someone to do something momentarily?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Y\u00e0o + [Verb] + le" },
-        { "key": "B", "label": "[Verb] + y\u012b xi\u00e0" },
-        { "key": "C", "label": "G\u011bi + [Verb]" },
-        { "key": "D", "label": "Q\u01d0ng + [Verb] + de" }
+        {
+          "key": "A",
+          "label": "yào + [verb] + le"
+        },
+        {
+          "key": "B",
+          "label": "[verb] + yī xià"
+        },
+        {
+          "key": "C",
+          "label": "gěi + [verb]"
+        },
+        {
+          "key": "D",
+          "label": "qǐng + [verb] + de"
+        }
       ],
       "answer": "B"
     },
@@ -68,10 +128,22 @@
       "prompt": "What is the structure used to call someone to action?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "[Action] + ma" },
-        { "key": "B", "label": "B\u00f9 + [Action]" },
-        { "key": "C", "label": "[Verb] + ba, or [Verb] x 3" },
-        { "key": "D", "label": "W\u01d2 + [Action]" }
+        {
+          "key": "A",
+          "label": "[action] + ma"
+        },
+        {
+          "key": "B",
+          "label": "bù + [action]"
+        },
+        {
+          "key": "C",
+          "label": "[action] + ba"
+        },
+        {
+          "key": "D",
+          "label": "wǒ + [action]"
+        }
       ],
       "answer": "C"
     },
@@ -80,10 +152,22 @@
       "prompt": "What phrase is used to ask someone to hurry up?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "M\u00e0n di\u01cend (Slower)" },
-        { "key": "B", "label": "B\u00f9 m\u00e1ng (Not busy)" },
-        { "key": "C", "label": "Ku\u00e0i di\u01cend" },
-        { "key": "D", "label": "Z\u01ceo di\u01cend (Earlier)" }
+        {
+          "key": "A",
+          "label": "màn diǎnr"
+        },
+        {
+          "key": "B",
+          "label": "wǎn diǎnr"
+        },
+        {
+          "key": "C",
+          "label": "kuài diǎnr"
+        },
+        {
+          "key": "D",
+          "label": "zǎo diǎnr"
+        }
       ],
       "answer": "C"
     },
@@ -92,10 +176,22 @@
       "prompt": "How do you say 'Let's go, let's go, let's go'?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Q\u00f9 q\u00f9 q\u00f9" },
-        { "key": "B", "label": "L\u00e1i l\u00e1i l\u00e1i" },
-        { "key": "C", "label": "Ku\u00e0i ku\u00e0i ku\u00e0i" },
-        { "key": "D", "label": "Z\u01d2u z\u01d2u z\u01d2u" }
+        {
+          "key": "A",
+          "label": "Qù qù qù"
+        },
+        {
+          "key": "B",
+          "label": "Lái lái lái"
+        },
+        {
+          "key": "C",
+          "label": "Zǎo zǎo zǎo"
+        },
+        {
+          "key": "D",
+          "label": "Zǒu zǒu zǒu"
+        }
       ],
       "answer": "D"
     }

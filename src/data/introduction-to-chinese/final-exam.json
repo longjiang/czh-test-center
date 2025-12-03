@@ -127,7 +127,7 @@
       "prompt": "Wǒmen qù _____ ba!",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "hē chá" },
+        { "key": "A", "label": "péngyǒu" },
         { "key": "B", "label": "yóulèchǎng" },
         { "key": "C", "label": "píjiǔ" },
         { "key": "D", "label": "hǎo chī" }
@@ -151,10 +151,10 @@
       "prompt": "Zěnme, nǐ __ le?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "píjiǔ le" },
+        { "key": "A", "label": "píjiǔ" },
         { "key": "B", "label": "kū" },
-        { "key": "C", "label": "zài chē" },
-        { "key": "D", "label": "hē chī" }
+        { "key": "C", "label": "zài" },
+        { "key": "D", "label": "diǎnr" }
       ],
       "answer": "B"
     },
@@ -192,10 +192,10 @@
       "prompt": "Nǐ zuótiān hē jiǔ le ma?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Hē le." },
+        { "key": "A", "label": "Chī le a." },
         { "key": "B", "label": "Méi hē a." },
-        { "key": "C", "label": "Hěn kuài." },
-        { "key": "D", "label": "Bù chī." }
+        { "key": "C", "label": "Hěn kuài a." },
+        { "key": "D", "label": "Bù chī a." }
       ],
       "answer": "B"
     },

@@ -5,37 +5,73 @@
   "questions": [
     {
       "id": "l9-q1",
-      "prompt": "Give the correct meaning of: xi\u01ceng",
+      "prompt": "Give the correct meaning of: xiǎng",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "To walk, to go" },
-        { "key": "B", "label": "To think, to want" },
-        { "key": "C", "label": "To eat, to drink" },
-        { "key": "D", "label": "To see, to look" }
+        {
+          "key": "A",
+          "label": "To walk, to go"
+        },
+        {
+          "key": "B",
+          "label": "To think, to want"
+        },
+        {
+          "key": "C",
+          "label": "To eat, to drink"
+        },
+        {
+          "key": "D",
+          "label": "To see, to look"
+        }
       ],
       "answer": "B"
     },
     {
       "id": "l9-q2",
-      "prompt": "Give the correct meaning of: g\u0113 (noun)",
+      "prompt": "Give the correct meaning of: gē (noun)",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Younger sister" },
-        { "key": "B", "label": "Mother" },
-        { "key": "C", "label": "Older brother" },
-        { "key": "D", "label": "Father" }
+        {
+          "key": "A",
+          "label": "Younger sister"
+        },
+        {
+          "key": "B",
+          "label": "Mother"
+        },
+        {
+          "key": "C",
+          "label": "Older brother"
+        },
+        {
+          "key": "D",
+          "label": "Father"
+        }
       ],
       "answer": "C"
     },
     {
       "id": "l9-q3",
-      "prompt": "What is the verb for \u201cmay, to have permission?\u201d",
+      "prompt": "What is the verb for “may, to have permission?”",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "K\u00e0n (To look)" },
-        { "key": "B", "label": "X\u00edng" },
-        { "key": "C", "label": "Ch\u012b (To eat)" },
-        { "key": "D", "label": "Sh\u00ec (To be)" }
+        {
+          "key": "A",
+          "label": "Kàn"
+        },
+        {
+          "key": "B",
+          "label": "Xíng"
+        },
+        {
+          "key": "C",
+          "label": "Chī"
+        },
+        {
+          "key": "D",
+          "label": "Shì"
+        }
       ],
       "answer": "B"
     },
@@ -44,22 +80,46 @@
       "prompt": "What is the Chinese word for 'today'?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Zu\u00f3ti\u0101n (Yesterday)" },
-        { "key": "B", "label": "M\u00edngti\u0101n (Tomorrow)" },
-        { "key": "C", "label": "J\u012bnti\u0101n" },
-        { "key": "D", "label": "H\u00f2uti\u0101n (The day after tomorrow)" }
+        {
+          "key": "A",
+          "label": "Yīqǐ"
+        },
+        {
+          "key": "B",
+          "label": "Shuǐguǒ"
+        },
+        {
+          "key": "C",
+          "label": "Jīntiān"
+        },
+        {
+          "key": "D",
+          "label": "Chīfàn"
+        }
       ],
       "answer": "C"
     },
     {
       "id": "l9-q5",
-      "prompt": "What adverb means \u201ctoo\u201d or \u201cexcessively?\u201d",
+      "prompt": "What adverb means “too” or “excessively?”",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "H\u011bn (Very)" },
-        { "key": "B", "label": "D\u014du (All)" },
-        { "key": "C", "label": "T\u00e0i" },
-        { "key": "D", "label": "Y\u011b (Also)" }
+        {
+          "key": "A",
+          "label": "Hěn"
+        },
+        {
+          "key": "B",
+          "label": "Dōu"
+        },
+        {
+          "key": "C",
+          "label": "Tài"
+        },
+        {
+          "key": "D",
+          "label": "Yě"
+        }
       ],
       "answer": "C"
     },
@@ -68,10 +128,22 @@
       "prompt": "What structure is used to express that something is excessive (e.g., 'too late')?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "H\u011bn + [Adj] + de" },
-        { "key": "B", "label": "T\u00e0i + [Adj] + le" },
-        { "key": "C", "label": "B\u00f9 + [Adj] + gu\u00f2" },
-        { "key": "D", "label": "Y\u00f2u + [Adj]" }
+        {
+          "key": "A",
+          "label": "Hěn + [Adj] + de"
+        },
+        {
+          "key": "B",
+          "label": "Tài + [Adj] + le"
+        },
+        {
+          "key": "C",
+          "label": "Bù + [Adj] + guò"
+        },
+        {
+          "key": "D",
+          "label": "Yòu + [Adj]"
+        }
       ],
       "answer": "B"
     },
@@ -80,10 +152,22 @@
       "prompt": "What structure is used to deny someone permission?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "T\u00e0i x\u00edng" },
-        { "key": "B", "label": "W\u01d2 x\u00edng" },
-        { "key": "C", "label": "B\u00f9 x\u00edng" },
-        { "key": "D", "label": "H\u011bn x\u00edng" }
+        {
+          "key": "A",
+          "label": "Tài xíng"
+        },
+        {
+          "key": "B",
+          "label": "Wǒ xíng"
+        },
+        {
+          "key": "C",
+          "label": "Bù xíng"
+        },
+        {
+          "key": "D",
+          "label": "Hěn xíng"
+        }
       ],
       "answer": "C"
     },
@@ -92,34 +176,70 @@
       "prompt": "What is the general structure used to express your wish (e.g., 'I want to eat')?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "W\u01d2 sh\u00ec + [Verb]" },
-        { "key": "B", "label": "W\u01d2 y\u00e0o + [Noun]" },
-        { "key": "C", "label": "W\u01d2 xi\u01ceng + [Verb]" },
-        { "key": "D", "label": "W\u01d2 b\u00f9 + [Verb]" }
+        {
+          "key": "A",
+          "label": "Wǒ shì + [Verb]"
+        },
+        {
+          "key": "B",
+          "label": "Wǒ máng + [Verb]"
+        },
+        {
+          "key": "C",
+          "label": "Wǒ xiǎng + [Verb]"
+        },
+        {
+          "key": "D",
+          "label": "Wǒ bù + [Verb]"
+        }
       ],
       "answer": "C"
     },
     {
       "id": "l9-q9",
-      "prompt": "What does the phrase z\u011bnme le mean?",
+      "prompt": "What does the phrase zěnme le mean?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Where are you going?" },
-        { "key": "B", "label": "How are you?" },
-        { "key": "C", "label": "What's the matter / What happened?" },
-        { "key": "D", "label": "Who is that?" }
+        {
+          "key": "A",
+          "label": "Where are you going?"
+        },
+        {
+          "key": "B",
+          "label": "How are you?"
+        },
+        {
+          "key": "C",
+          "label": "What's the matter?"
+        },
+        {
+          "key": "D",
+          "label": "Who is that?"
+        }
       ],
       "answer": "C"
     },
     {
       "id": "l9-q10",
-      "prompt": "Give the correct meaning of: y\u012bq\u01d0",
+      "prompt": "Give the correct meaning of: yīqǐ",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Alone" },
-        { "key": "B", "label": "Yesterday" },
-        { "key": "C", "label": "Together" },
-        { "key": "D", "label": "Right now" }
+        {
+          "key": "A",
+          "label": "Alone"
+        },
+        {
+          "key": "B",
+          "label": "Yesterday"
+        },
+        {
+          "key": "C",
+          "label": "Together"
+        },
+        {
+          "key": "D",
+          "label": "Tomorrow"
+        }
       ],
       "answer": "C"
     }

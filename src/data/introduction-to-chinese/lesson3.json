@@ -8,10 +8,22 @@
       "prompt": "Give the correct meaning of bà",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Mom" },
-        { "key": "B", "label": "Brother" },
-        { "key": "C", "label": "Dad" },
-        { "key": "D", "label": "Grandma" }
+        {
+          "key": "A",
+          "label": "Mom"
+        },
+        {
+          "key": "B",
+          "label": "Brother"
+        },
+        {
+          "key": "C",
+          "label": "Dad"
+        },
+        {
+          "key": "D",
+          "label": "Grandma"
+        }
       ],
       "answer": "C"
     },
@@ -20,10 +32,22 @@
       "prompt": "Give the correct meaning of kuài",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Slow" },
-        { "key": "B", "label": "Fast" },
-        { "key": "C", "label": "Happy" },
-        { "key": "D", "label": "Tired" }
+        {
+          "key": "A",
+          "label": "Slow"
+        },
+        {
+          "key": "B",
+          "label": "Fast"
+        },
+        {
+          "key": "C",
+          "label": "Happy"
+        },
+        {
+          "key": "D",
+          "label": "Tired"
+        }
       ],
       "answer": "B"
     },
@@ -32,22 +56,46 @@
       "prompt": "How do you respond when someone is calling out to you?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "b\u00fa k\u00e8qi" },
-        { "key": "B", "label": "sh\u00ec de" },
-        { "key": "C", "label": "h\u01ceo de" },
-        { "key": "D", "label": "\u0101i" }
+        {
+          "key": "A",
+          "label": "bú kèqi"
+        },
+        {
+          "key": "B",
+          "label": "shì de"
+        },
+        {
+          "key": "C",
+          "label": "hǎo de"
+        },
+        {
+          "key": "D",
+          "label": "āi"
+        }
       ],
       "answer": "D"
     },
     {
       "id": "l3-q4",
-      "prompt": "How is \u201cdi\u01cenr\u201d pronounced?",
+      "prompt": "How is “diǎnr” pronounced?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "It sounds like [dianer] \u2014 \"r\" is heavily rolled" },
-        { "key": "B", "label": "It sounds like [dianner] \u2014 \"n\" is clearly pronounced" },
-        { "key": "C", "label": "It sounds like [diar] \u2014 \u201cn\u201d is not pronounced" },
-        { "key": "D", "label": "It sounds like [der] \u2014 a blend of two syllables" }
+        {
+          "key": "A",
+          "label": "It sounds like [dianer] — “r” is heavily rolled"
+        },
+        {
+          "key": "B",
+          "label": "It sounds like [dianner] — “n” is clearly pronounced"
+        },
+        {
+          "key": "C",
+          "label": "It sounds like [diar] — “n” is not pronounced"
+        },
+        {
+          "key": "D",
+          "label": "It sounds like [der] — a blend of two syllables"
+        }
       ],
       "answer": "C"
     }

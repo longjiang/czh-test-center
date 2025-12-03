@@ -8,10 +8,22 @@
       "prompt": "Give the correct meaning of bái bái",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Hello" },
-        { "key": "B", "label": "See you later" },
-        { "key": "C", "label": "Bye-bye" },
-        { "key": "D", "label": "Good night" }
+        {
+          "key": "A",
+          "label": "Hello"
+        },
+        {
+          "key": "B",
+          "label": "See you later"
+        },
+        {
+          "key": "C",
+          "label": "Bye-bye"
+        },
+        {
+          "key": "D",
+          "label": "Good night"
+        }
       ],
       "answer": "C"
     },
@@ -20,10 +32,22 @@
       "prompt": "Give the correct meaning of zài jiàn",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Hello again" },
-        { "key": "B", "label": "Next time" },
-        { "key": "C", "label": "Goodbye" },
-        { "key": "D", "label": "Hello" }
+        {
+          "key": "A",
+          "label": "Hello again"
+        },
+        {
+          "key": "B",
+          "label": "Next time"
+        },
+        {
+          "key": "C",
+          "label": "Goodbye"
+        },
+        {
+          "key": "D",
+          "label": "Hello"
+        }
       ],
       "answer": "C"
     },
@@ -32,10 +56,22 @@
       "prompt": "Give the correct meaning of xià cì jiàn",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "See you next time" },
-        { "key": "B", "label": "Next week" },
-        { "key": "C", "label": "Next time will be good" },
-        { "key": "D", "label": "Until tomorrow" }
+        {
+          "key": "A",
+          "label": "See you next time"
+        },
+        {
+          "key": "B",
+          "label": "Next week"
+        },
+        {
+          "key": "C",
+          "label": "Next time will be good"
+        },
+        {
+          "key": "D",
+          "label": "Until tomorrow"
+        }
       ],
       "answer": "A"
     },
@@ -44,10 +80,22 @@
       "prompt": "Give the correct meaning of āyí zài jiàn",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Hello, auntie" },
-        { "key": "B", "label": "Auntie is leaving" },
-        { "key": "C", "label": "Bye-bye, auntie" },
-        { "key": "D", "label": "Thank you, auntie" }
+        {
+          "key": "A",
+          "label": "Hello, auntie"
+        },
+        {
+          "key": "B",
+          "label": "Auntie is leaving"
+        },
+        {
+          "key": "C",
+          "label": "Bye-bye, auntie"
+        },
+        {
+          "key": "D",
+          "label": "Thank you, auntie"
+        }
       ],
       "answer": "C"
     },
@@ -56,34 +104,70 @@
       "prompt": "Give the correct meaning of qí míngyuè zài jiàn",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Hello, Qi Mingyue" },
-        { "key": "B", "label": "Qi Mingyue is good" },
-        { "key": "C", "label": "Goodbye, Qi Mingyue" },
-        { "key": "D", "label": "Qi Mingyue, next time" }
+        {
+          "key": "A",
+          "label": "Hello, Qi Mingyue"
+        },
+        {
+          "key": "B",
+          "label": "Qi Mingyue is good"
+        },
+        {
+          "key": "C",
+          "label": "Goodbye, Qi Mingyue"
+        },
+        {
+          "key": "D",
+          "label": "Qi Mingyue, next time"
+        }
       ],
       "answer": "C"
     },
     {
       "id": "l2-q6",
-      "prompt": "What does \u201cxi\u00e0\u201d in pinyin sound like?",
+      "prompt": "What does “xià” in pinyin sound like?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "Sounds like [zee-ah]" },
-        { "key": "B", "label": "Sounds like [sha]" },
-        { "key": "C", "label": "Sounds like [shia]" },
-        { "key": "D", "label": "Sounds like [ksia]" }
+        {
+          "key": "A",
+          "label": "Sounds like [zee-ah]"
+        },
+        {
+          "key": "B",
+          "label": "Sounds like [sha]"
+        },
+        {
+          "key": "C",
+          "label": "Sounds like [shia]"
+        },
+        {
+          "key": "D",
+          "label": "Sounds like [ksia]"
+        }
       ],
       "answer": "C"
     },
     {
       "id": "l2-q7",
-      "prompt": "How is \u201cc\u201d in pinyin pronounced?",
+      "prompt": "How is “c” in pinyin pronounced?",
       "type": "multiple-choice",
       "options": [
-        { "key": "A", "label": "It is pronounced like [ch]" },
-        { "key": "B", "label": "It is pronounced like [k]" },
-        { "key": "C", "label": "It is pronounced like [ts]" },
-        { "key": "D", "label": "It is pronounced like [s]" }
+        {
+          "key": "A",
+          "label": "It is pronounced like [ch]"
+        },
+        {
+          "key": "B",
+          "label": "It is pronounced like [k]"
+        },
+        {
+          "key": "C",
+          "label": "It is pronounced like [ts]"
+        },
+        {
+          "key": "D",
+          "label": "It is pronounced like [s]"
+        }
       ],
       "answer": "C"
     }
