@@ -25,7 +25,7 @@ function QuestionCard({
           <span className="badge">{question.type === 'multiple-choice' ? 'Multiple Choice' : 'Question'}</span>
         </div>
         <div className="flex flex-col gap-1">
-          <p className="text-slate-900 font-semibold leading-tight">{question.prompt}</p>
+          <p className="text-slate-900 text-sm leading-tight font-normal">{question.prompt}</p>
           {question.audioSrc && (
             <audio className="mt-1" controls preload="none" src={question.audioSrc}>
               Your browser does not support the audio element.
